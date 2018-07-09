@@ -54,7 +54,7 @@ var items = [
 
 ["end_of_practice", "Message", {html: "<p>You've reached the end of practice. On to the real experiment! As a reminder, press <b> z </b> if the answer is yes and <b> m</b> if the answer is no</p> <p> Press any key to begin. </p>"}],
 
-[[["filler71",1], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler71",1], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
 [["filler71",1], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
 [["NPZ7_ambig_unmodified",1], "DashedSentence", {s: "After the kids cheated the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: "Did the kids end up sitting apart?", hasCorrect: 0}],
 [["NPZ7_unambig_unmodified",1], "DashedSentence", {s: "After the kids cheated, the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: "Did the kids end up sitting apart?", hasCorrect: 0}],
@@ -1016,8 +1016,9 @@ var items = [
 [["filler45",[120,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
 
 
+
 ["participant_observations", "Form", {html: {include: "participant_observations.html"}}],
-["end_of_experiment", "Form", {html: {include: "end_of_exp.html"}}],
+["end_of_experiment", "Form", {html: {include: "end_of_exp.html"}}]
 
 
 
