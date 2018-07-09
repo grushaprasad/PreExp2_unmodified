@@ -1016,9 +1016,8 @@ var items = [
 [["filler45",[120,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
 
 
-
 ["participant_observations", "Form", {html: {include: "participant_observations.html"}}],
-["end_of_experiment", "Form", {html: {include: "end_of_exp.html"}}]
+["end_of_experiment", "Form", {html: {include: "end_of_exp.html"}}],
 
 
 
