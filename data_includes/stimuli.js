@@ -1,5 +1,5 @@
 var shuffleSequence = seq("setcounter","intro", "demographic", "instructions", "beginning_of_practice", sepWith("practice_sep", "practice"), "practice_sep", "end_of_practice", "spacebar",
-                          sepWith("sep", seq(anyOf("RRC28", "RRC29", "filler64", "RRC21", "RRC22", "RRC23", "RRC24", "RRC25", "filler62", "RRC27", "RRC20", "filler60", "filler61", "RRC26", "filler63", "filler42", "filler43", "filler40", "filler41", "filler46", "filler47", "filler44", "filler45", "filler48", "filler49", "RRC40", "filler11", "RRC36", "filler13", "filler55", "filler54", "filler57", "filler56", "filler51", "filler50", "filler53", "filler52", "RRC33", "filler59", "filler58", "filler14", "filler17", "filler16", "RRC34", "filler20", "filler21", "filler22", "filler23", "filler24", "filler25", "filler26", "filler27", "filler28", "filler29", "RRC11", "RRC10", "RRC13", "RRC12", "RRC15", "RRC14", "RRC17", "RRC16", "RRC19", "RRC18", "filler33", "filler32", "filler31", "filler30", "filler37", "filler36", "filler35", "filler34", "filler39", "filler38", "RRC9", "RRC8", "RRC1", "RRC3", "RRC2", "RRC5", "RRC4", "RRC7", "RRC6", "filler9", "filler8", "filler5", "filler4", "filler7", "filler6", "filler1", "filler3", "filler2", "filler19", "filler18", "RRC39", "RRC38", "RRC37", "filler10", "RRC35", "filler12", "filler15", "RRC32", "RRC31", "RRC30"))
+                          sepWith("sep", seq(anyOf("filler68", "filler69", "filler64", "filler65", "filler66", "filler67", "filler60", "filler61", "filler62", "filler63", "NPS11_unambig_unmodified", "NPZ17_ambig_unmodified", "NPS20_unambig_unmodified", "filler79", "NPZ11_unambig_unmodified", "filler77", "filler76", "filler75", "filler74", "filler73", "filler72", "filler71", "filler70", "NPS3_ambig_unmodified", "NPZ2_unambig_unmodified", "filler6", "NPS9_ambig_unmodified", "NPS18_ambig_unmodified", "NPZ16_ambig_unmodified", "NPS16_ambig_unmodified", "filler42", "filler43", "filler40", "filler41", "filler46", "filler47", "filler44", "filler45", "filler48", "filler49", "filler56", "NPS7_ambig_unmodified", "NPS10_ambig_unmodified", "NPS2_unambig_unmodified", "NPZ19_ambig_unmodified", "filler55", "filler54", "filler57", "filler12", "filler51", "filler50", "filler53", "filler52", "filler59", "filler58", "NPZ5_ambig_unmodified", "NPZ10_ambig_unmodified", "filler16", "NPS5_unambig_unmodified", "NPZ12_unambig_unmodified", "NPS14_unambig_unmodified", "NPZ13_unambig_unmodified", "NPZ7_ambig_unmodified", "filler20", "filler21", "filler22", "filler23", "filler24", "filler25", "filler26", "filler27", "filler28", "filler29", "NPS4_ambig_unmodified", "NPS15_unambig_unmodified", "filler33", "filler32", "filler31", "filler30", "filler37", "filler36", "filler35", "filler34", "filler39", "filler38", "NPZ20_unambig_unmodified", "NPZ14_unambig_unmodified", "NPZ4_unambig_unmodified", "NPS8_unambig_unmodified", "NPS17_ambig_unmodified", "NPZ1_ambig_unmodified", "filler78", "filler80", "filler9", "filler8", "filler5", "filler4", "filler7", "NPZ6_ambig_unmodified", "filler1", "NPZ8_ambig_unmodified", "filler3", "filler2", "filler19", "filler18", "NPS6_unambig_unmodified", "NPS1_ambig_unmodified", "filler11", "filler10", "filler13", "NPS19_ambig_unmodified", "filler15", "filler14", "filler17", "NPS12_unambig_unmodified", "NPZ9_ambig_unmodified", "NPZ15_unambig_unmodified", "NPZ3_unambig_unmodified", "NPS13_unambig_unmodified", "NPZ18_unambig_unmodified"))
                             ),"participant_observations", "sr", "end_of_experiment");
 
 var practiceItemTypes = ["practice"];
@@ -54,647 +54,1606 @@ var items = [
 
 ["end_of_practice", "Message", {html: "<p>You've reached the end of practice. On to the real experiment! As a reminder, press <b> z </b> if the answer is yes and <b> m</b> if the answer is no</p> <p> Press any key to begin. </p>"}],
 
-[["filler5",1], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["RRC34",1], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["filler57",1], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["filler57",1], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["filler45",1], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-[["filler45",1], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-[["RRC32",1], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["RRC32",1], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["filler46",[2,1]], "DashedSentence", {s: "The talented lawyer argued that his client had never been to the scene of the crime."}, "Question", {q: "Was the lawyer talented?", hasCorrect: 0}],
-[["RRC20",[2,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["filler38",[2,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler38",[2,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler17",[2,1]], "DashedSentence", {s: "The student pretended to be sick until their mother left the room."}, "Question", {q: "Was the student really sick?", hasCorrect: 1}],
-[["RRC35",[2,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["filler50",[2,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["filler50",[2,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["filler58",[3,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["RRC17",[3,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["filler55",[3,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["filler55",[3,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["filler41",[3,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["filler41",[3,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["filler5",[3,1]], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["filler5",[3,1]], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["filler25",[4,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["filler25",[4,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["RRC29",[4,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["RRC29",[4,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["filler7",[4,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler7",[4,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler48",[4,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler48",[4,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler39",[5,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["filler39",[5,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["RRC31",[5,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["RRC31",[5,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["filler16",[5,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["RRC27",[5,1]], "DashedSentence", {s: "The bearded man shaved two weeks ago liked his stylish new look."}, "Question", {q: "Was the man disappointed with his new look?", hasCorrect: 1}],
-[["RRC6",[5,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["RRC6",[5,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["filler1",[6,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["filler1",[6,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["filler13",[6,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler13",[6,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler24",[6,1]], "DashedSentence", {s: "The jogger inhaled deeply in an attempt to regain his breath."}, "Question", {q: "Was the jogger out of breath?", hasCorrect: 0}],
-[["RRC18",[6,1]], "DashedSentence", {s: "The helpful librarian lent the frayed book took good care of it."}, "Question", {q: "Was the book in good condition?", hasCorrect: 1}],
-[["RRC7",[6,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["RRC7",[6,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["filler10",[7,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["RRC12",[7,1]], "DashedSentence", {s: "The sly merchant sold the faulty devices was angry with himself for not noticing."}, "Question", {q: "Did the merchant purchase the machines?", hasCorrect: 0}],
-[["RRC37",[7,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["RRC37",[7,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["filler46",[7,1]], "DashedSentence", {s: "The talented lawyer argued that his client had never been to the scene of the crime."}, "Question", {q: "Was the lawyer talented?", hasCorrect: 0}],
-[["RRC30",[7,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["RRC39",[7,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["RRC39",[7,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["filler50",[8,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["RRC6",[8,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["RRC2",[8,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["RRC2",[8,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["filler9",[8,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler9",[8,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler3",[8,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler3",[8,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler27",[9,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler27",[9,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler23",[9,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["filler23",[9,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["filler58",[9,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["filler58",[9,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["filler52",[9,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["filler52",[9,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["filler21",[10,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler21",[10,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["RRC9",[10,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["RRC9",[10,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["filler37",[10,1]], "DashedSentence", {s: "The basketball player's ankle swelled as he limped off the court."}, "Question", {q: "Was the player injured?", hasCorrect: 0}],
-[["RRC4",[10,1]], "DashedSentence", {s: "The exicted girl bought the shiny toy played with it all day."}, "Question", {q: "Did the girl like the toy?", hasCorrect: 0}],
-[["filler14",[10,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["filler14",[10,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["filler47",[11,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["RRC39",[11,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["RRC33",[11,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["RRC33",[11,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["filler2",[11,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["filler2",[11,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["RRC1",[11,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["RRC1",[11,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["filler17",[12,1]], "DashedSentence", {s: "The student pretended to be sick until their mother left the room."}, "Question", {q: "Was the student really sick?", hasCorrect: 1}],
-[["RRC8",[12,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["filler59",[12,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler59",[12,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler25",[12,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["RRC21",[12,1]], "DashedSentence", {s: "The blue pen rested on the desk wound up getting stolen."}, "Question", {q: "Was the pen blue?", hasCorrect: 0}],
-[["RRC29",[12,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["RRC29",[12,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["filler52",[13,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["RRC25",[13,1]], "DashedSentence", {s: "The little girl sat on the couch fell down and started crying."}, "Question", {q: "Did the girl remain on the couch?", hasCorrect: 1}],
-[["RRC16",[13,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["RRC16",[13,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["filler60",[13,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["RRC24",[13,1]], "DashedSentence", {s: "The talented musician played the beautiful song applauded in delight."}, "Question", {q: "Did the musician perform the song?", hasCorrect: 1}],
-[["filler29",[13,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler29",[13,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler35",[14,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler35",[14,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler19",[14,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["filler19",[14,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["filler39",[14,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["filler39",[14,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["filler54",[14,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler54",[14,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler28",[15,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler28",[15,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler29",[15,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler29",[15,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler15",[15,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["RRC11",[15,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["RRC34",[15,1]], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["RRC34",[15,1]], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["filler48",[16,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler48",[16,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["RRC10",[16,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["RRC10",[16,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["filler31",[16,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["filler31",[16,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["RRC20",[16,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["RRC20",[16,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["filler42",[17,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["RRC3",[17,1]], "DashedSentence", {s: "The frightened kid moved through the crowd got separated from Jane."}, "Question", {q: "Was the child pushed through the crowd?", hasCorrect: 0}],
-[["filler63",[17,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler63",[17,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler19",[17,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["RRC9",[17,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["filler51",[17,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["filler51",[17,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["filler41",[18,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["RRC15",[18,1]], "DashedSentence", {s: "The hippie children rinsed in the river were later taken berry-picking."}, "Question", {q: "Were the children rinsed in a pond?", hasCorrect: 1}],
-[["RRC13",[18,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["RRC13",[18,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["filler49",[18,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler49",[18,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["RRC31",[18,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["RRC31",[18,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["filler36",[19,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["filler36",[19,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["filler34",[19,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["filler34",[19,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["filler30",[19,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["RRC25",[19,1]], "DashedSentence", {s: "The little girl sat on the couch fell down and started crying."}, "Question", {q: "Did the girl remain on the couch?", hasCorrect: 1}],
-[["filler61",[19,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler61",[19,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler43",[20,1]], "DashedSentence", {s: "The young boy sang a song that showcased his remarkable talent."}, "Question", {q: "Was the boy talented?", hasCorrect: 0}],
-[["RRC18",[20,1]], "DashedSentence", {s: "The helpful librarian lent the frayed book took good care of it."}, "Question", {q: "Was the book in good condition?", hasCorrect: 1}],
-[["RRC30",[20,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["RRC30",[20,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["filler21",[20,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler21",[20,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["RRC23",[20,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["RRC23",[20,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["filler15",[21,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["filler15",[21,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["RRC11",[21,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["RRC11",[21,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["filler40",[21,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["filler40",[21,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["RRC26",[21,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["RRC26",[21,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["filler56",[22,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["filler56",[22,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["filler22",[22,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["filler22",[22,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["filler35",[22,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler35",[22,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler13",[22,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler13",[22,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler37",[23,1]], "DashedSentence", {s: "The basketball player's ankle swelled as he limped off the court."}, "Question", {q: "Was the player injured?", hasCorrect: 0}],
-[["RRC22",[23,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["RRC5",[23,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["RRC5",[23,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["filler23",[23,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["RRC40",[23,1]], "DashedSentence", {s: "The avid reader suggested the unusual book enjoyed reading it very much."}, "Question", {q: "Did the reader like the book?", hasCorrect: 0}],
-[["filler10",[23,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["filler10",[23,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["filler12",[24,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["filler12",[24,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["filler7",[24,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler7",[24,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler44",[24,1]], "DashedSentence", {s: "The knight from the storybook slew a dragon to get into the castle."}, "Question", {q: "Did the knight kill the dragon?", hasCorrect: 0}],
-[["RRC14",[24,1]], "DashedSentence", {s: "The playful teenager baked the pie refused to share it with the others."}, "Question", {q: "Did the teenager make the pie?", hasCorrect: 1}],
-[["filler59",[24,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler59",[24,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler30",[25,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["filler30",[25,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["RRC35",[25,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["RRC35",[25,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["filler53",[25,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler53",[25,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["RRC8",[25,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["RRC8",[25,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["filler3",[26,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler3",[26,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler6",[26,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler6",[26,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler34",[26,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["RRC38",[26,1]], "DashedSentence", {s: "The sleepy volunteers offered the hot soup were glad to take a break to eat."}, "Question", {q: "Did the volunteers receive the soup?", hasCorrect: 0}],
-[["filler38",[26,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler38",[26,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler31",[27,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["RRC38",[27,1]], "DashedSentence", {s: "The sleepy volunteers offered the hot soup were glad to take a break to eat."}, "Question", {q: "Did the volunteers receive the soup?", hasCorrect: 0}],
-[["filler49",[27,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler49",[27,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler20",[27,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["filler20",[27,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["RRC37",[27,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["RRC37",[27,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["filler32",[28,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["RRC36",[28,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["RRC26",[28,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["RRC26",[28,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["filler1",[28,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["RRC13",[28,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["filler11",[28,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler11",[28,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler40",[29,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["filler40",[29,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["filler53",[29,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler53",[29,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler26",[29,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["filler26",[29,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["RRC22",[29,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["RRC22",[29,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["filler8",[30,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["filler8",[30,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["filler61",[30,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler61",[30,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler43",[30,1]], "DashedSentence", {s: "The young boy sang a song that showcased his remarkable talent."}, "Question", {q: "Was the boy talented?", hasCorrect: 0}],
-[["RRC19",[30,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["RRC17",[30,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["RRC17",[30,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["filler33",[31,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["RRC24",[31,1]], "DashedSentence", {s: "The talented musician played the beautiful song applauded in delight."}, "Question", {q: "Did the musician perform the song?", hasCorrect: 1}],
-[["RRC19",[31,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["RRC19",[31,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["filler63",[31,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler63",[31,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler28",[31,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler28",[31,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler14",[32,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["RRC21",[32,1]], "DashedSentence", {s: "The blue pen rested on the desk wound up getting stolen."}, "Question", {q: "Was the pen blue?", hasCorrect: 0}],
-[["RRC1",[32,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["RRC1",[32,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["filler12",[32,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["RRC3",[32,1]], "DashedSentence", {s: "The frightened kid moved through the crowd got separated from Jane."}, "Question", {q: "Was the child pushed through the crowd?", hasCorrect: 0}],
-[["RRC36",[32,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["RRC36",[32,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["filler16",[33,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["filler16",[33,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["filler64",[33,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["filler64",[33,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["filler42",[33,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["filler42",[33,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["filler8",[33,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["RRC12",[33,1]], "DashedSentence", {s: "The sly merchant sold the faulty devices was angry with himself for not noticing."}, "Question", {q: "Did the merchant purchase the machines?", hasCorrect: 0}],
-[["filler20",[34,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["RRC32",[34,1]], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["filler44",[34,1]], "DashedSentence", {s: "The knight from the storybook slew a dragon to get into the castle."}, "Question", {q: "Did the knight kill the dragon?", hasCorrect: 0}],
-[["RRC7",[34,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["filler33",[34,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["filler33",[34,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["filler22",[34,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["RRC10",[34,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["filler62",[35,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["RRC14",[35,1]], "DashedSentence", {s: "The playful teenager baked the pie refused to share it with the others."}, "Question", {q: "Did the teenager make the pie?", hasCorrect: 1}],
-[["filler54",[35,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler54",[35,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler47",[35,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["filler47",[35,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["filler18",[35,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler18",[35,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler11",[36,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler11",[36,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler9",[36,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler9",[36,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler36",[36,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["RRC2",[36,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["filler6",[36,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler6",[36,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler51",[37,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["RRC23",[37,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["filler24",[37,1]], "DashedSentence", {s: "The jogger inhaled deeply in an attempt to regain his breath."}, "Question", {q: "Was the jogger out of breath?", hasCorrect: 0}],
-[["RRC4",[37,1]], "DashedSentence", {s: "The exicted girl bought the shiny toy played with it all day."}, "Question", {q: "Did the girl like the toy?", hasCorrect: 0}],
-[["filler32",[37,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["filler32",[37,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["filler55",[37,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["RRC28",[37,1]], "DashedSentence", {s: "The competent adminstrator delivered the message made the necessary arrangements."}, "Question", {q: "Was the administrator well-prepared?", hasCorrect: 0}],
-[["filler45",[38,1]], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-[["RRC27",[38,1]], "DashedSentence", {s: "The bearded man shaved two weeks ago liked his stylish new look."}, "Question", {q: "Was the man disappointed with his new look?", hasCorrect: 1}],
-[["filler4",[38,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["filler4",[38,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["filler62",[38,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["filler62",[38,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["filler4",[38,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["RRC33",[38,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["filler18",[39,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler18",[39,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler60",[39,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["filler60",[39,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["filler57",[39,1]], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["RRC16",[39,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["filler27",[39,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler27",[39,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler2",[40,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["RRC40",[40,1]], "DashedSentence", {s: "The avid reader suggested the unusual book enjoyed reading it very much."}, "Question", {q: "Did the reader like the book?", hasCorrect: 0}],
-[["filler26",[40,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["RRC28",[40,1]], "DashedSentence", {s: "The competent adminstrator delivered the message made the necessary arrangements."}, "Question", {q: "Was the administrator well-prepared?", hasCorrect: 0}],
-[["filler64",[40,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["RRC5",[40,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["filler56",[40,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["RRC15",[40,1]], "DashedSentence", {s: "The hippie children rinsed in the river were later taken berry-picking."}, "Question", {q: "Were the children rinsed in a pond?", hasCorrect: 1}],
-[["filler26",[41,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["RRC28",[41,1]], "DashedSentence", {s: "The competent adminstrator delivered the message made the necessary arrangements."}, "Question", {q: "Was the administrator well-prepared?", hasCorrect: 0}],
-[["filler2",[41,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["RRC40",[41,1]], "DashedSentence", {s: "The avid reader suggested the unusual book enjoyed reading it very much."}, "Question", {q: "Did the reader like the book?", hasCorrect: 0}],
-[["filler56",[41,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["RRC15",[41,1]], "DashedSentence", {s: "The hippie children rinsed in the river were later taken berry-picking."}, "Question", {q: "Were the children rinsed in a pond?", hasCorrect: 1}],
-[["filler64",[41,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["RRC5",[41,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["filler60",[42,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["filler60",[42,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["filler18",[42,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler18",[42,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler27",[42,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler27",[42,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler57",[42,1]], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["RRC16",[42,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["filler4",[43,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["filler4",[43,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["filler45",[43,1]], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-[["RRC27",[43,1]], "DashedSentence", {s: "The bearded man shaved two weeks ago liked his stylish new look."}, "Question", {q: "Was the man disappointed with his new look?", hasCorrect: 1}],
-[["filler4",[43,1]], "DashedSentence", {s: "John became more frustrated with each passing minute."}, "Question", {q: "Did John get less frustrated over time?", hasCorrect: 1}],
-[["RRC33",[43,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["filler62",[43,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["filler62",[43,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["filler24",[44,1]], "DashedSentence", {s: "The jogger inhaled deeply in an attempt to regain his breath."}, "Question", {q: "Was the jogger out of breath?", hasCorrect: 0}],
-[["RRC4",[44,1]], "DashedSentence", {s: "The exicted girl bought the shiny toy played with it all day."}, "Question", {q: "Did the girl like the toy?", hasCorrect: 0}],
-[["filler51",[44,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["RRC23",[44,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["filler55",[44,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["RRC28",[44,1]], "DashedSentence", {s: "The competent adminstrator delivered the message made the necessary arrangements."}, "Question", {q: "Was the administrator well-prepared?", hasCorrect: 0}],
-[["filler32",[44,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["filler32",[44,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["filler9",[45,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler9",[45,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler11",[45,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler11",[45,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler6",[45,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler6",[45,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler36",[45,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["RRC2",[45,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["filler54",[46,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler54",[46,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler62",[46,1]], "DashedSentence", {s: "The teenagers swore to be best friends forever."}, "Question", {q: "Did the teenagers think that they were going to continue being good friends?", hasCorrect: 0}],
-[["RRC14",[46,1]], "DashedSentence", {s: "The playful teenager baked the pie refused to share it with the others."}, "Question", {q: "Did the teenager make the pie?", hasCorrect: 1}],
-[["filler18",[46,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler18",[46,1]], "DashedSentence", {s: "They drew lots to settle who should make dinner that day."}, "Question", {q: "Did they draw lots to decide who should make lunch?", hasCorrect: 1}],
-[["filler47",[46,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["filler47",[46,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["filler44",[47,1]], "DashedSentence", {s: "The knight from the storybook slew a dragon to get into the castle."}, "Question", {q: "Did the knight kill the dragon?", hasCorrect: 0}],
-[["RRC7",[47,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["filler20",[47,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["RRC32",[47,1]], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["filler22",[47,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["RRC10",[47,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["filler33",[47,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["filler33",[47,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["filler64",[48,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["filler64",[48,1]], "DashedSentence", {s: "Lily trod on a lot of toes when she joined the company."}, "Question", {q: "Did Lily upset people when she joined the company?", hasCorrect: 0}],
-[["filler16",[48,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["filler16",[48,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["filler8",[48,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["RRC12",[48,1]], "DashedSentence", {s: "The sly merchant sold the faulty devices was angry with himself for not noticing."}, "Question", {q: "Did the merchant purchase the machines?", hasCorrect: 0}],
-[["filler42",[48,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["filler42",[48,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["RRC1",[49,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["RRC1",[49,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["filler14",[49,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["RRC21",[49,1]], "DashedSentence", {s: "The blue pen rested on the desk wound up getting stolen."}, "Question", {q: "Was the pen blue?", hasCorrect: 0}],
-[["RRC36",[49,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["RRC36",[49,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["filler12",[49,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["RRC3",[49,1]], "DashedSentence", {s: "The frightened kid moved through the crowd got separated from Jane."}, "Question", {q: "Was the child pushed through the crowd?", hasCorrect: 0}],
-[["RRC19",[50,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["RRC19",[50,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["filler33",[50,1]], "DashedSentence", {s: "When the driver eventually overtook the last truck he pulled over to the inside lane."}, "Question", {q: "Did the driver overtake all the trucks?", hasCorrect: 0}],
-[["RRC24",[50,1]], "DashedSentence", {s: "The talented musician played the beautiful song applauded in delight."}, "Question", {q: "Did the musician perform the song?", hasCorrect: 1}],
-[["filler28",[50,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler28",[50,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler63",[50,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler63",[50,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler61",[51,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler61",[51,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler8",[51,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["filler8",[51,1]], "DashedSentence", {s: "The girl apologized to her parents for having stayed out past curfew."}, "Question", {q: "Was the girl caught staying out late?", hasCorrect: 0}],
-[["RRC17",[51,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["RRC17",[51,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["filler43",[51,1]], "DashedSentence", {s: "The young boy sang a song that showcased his remarkable talent."}, "Question", {q: "Was the boy talented?", hasCorrect: 0}],
-[["RRC19",[51,1]], "DashedSentence", {s: "The skilled player passed the soccer ball failed to score a goal."}, "Question", {q: "Did the player get a point?", hasCorrect: 1}],
-[["filler53",[52,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler53",[52,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler40",[52,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["filler40",[52,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["RRC22",[52,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["RRC22",[52,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["filler26",[52,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["filler26",[52,1]], "DashedSentence", {s: "Maria went upstairs and changed into jeans and a fitted blouse."}, "Question", {q: "Did Maria change into a dress?", hasCorrect: 1}],
-[["RRC26",[53,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["RRC26",[53,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["filler32",[53,1]], "DashedSentence", {s: "The friends studied together all day for an upcoming exam in their hardest class."}, "Question", {q: "Did the friends study independently?", hasCorrect: 1}],
-[["RRC36",[53,1]], "DashedSentence", {s: "The young clerk handed the long report filed it right away."}, "Question", {q: "Was the clerk given the report?", hasCorrect: 0}],
-[["filler11",[53,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler11",[53,1]], "DashedSentence", {s: "The hiker was overcome by the heat and needed to rest for a few minutes."}, "Question", {q: "Did the hiker need a break?", hasCorrect: 0}],
-[["filler1",[53,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["RRC13",[53,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["filler49",[54,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler49",[54,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler31",[54,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["RRC38",[54,1]], "DashedSentence", {s: "The sleepy volunteers offered the hot soup were glad to take a break to eat."}, "Question", {q: "Did the volunteers receive the soup?", hasCorrect: 0}],
-[["RRC37",[54,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["RRC37",[54,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["filler20",[54,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["filler20",[54,1]], "DashedSentence", {s: "The hungry dog ate all of the food in the bowl."}, "Question", {q: "Was there any food left in the bowl?", hasCorrect: 1}],
-[["filler6",[55,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler6",[55,1]], "DashedSentence", {s: "The arrogant man added the woman's contact information to his phone."}, "Question", {q: "Did the man get the woman's phone number?", hasCorrect: 0}],
-[["filler3",[55,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler3",[55,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler38",[55,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler38",[55,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler34",[55,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["RRC38",[55,1]], "DashedSentence", {s: "The sleepy volunteers offered the hot soup were glad to take a break to eat."}, "Question", {q: "Did the volunteers receive the soup?", hasCorrect: 0}],
-[["RRC35",[56,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["RRC35",[56,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["filler30",[56,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["filler30",[56,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["RRC8",[56,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["RRC8",[56,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["filler53",[56,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler53",[56,1]], "DashedSentence", {s: "The family cheerfully decorated the house just in time for the holidays."}, "Question", {q: "Did the family enjoy decorating the house?", hasCorrect: 0}],
-[["filler7",[57,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler7",[57,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler12",[57,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["filler12",[57,1]], "DashedSentence", {s: "The spy came very quietly and secretly to escape the soldiers."}, "Question", {q: "Did the spy make a lot of noise?", hasCorrect: 1}],
-[["filler59",[57,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler59",[57,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler44",[57,1]], "DashedSentence", {s: "The knight from the storybook slew a dragon to get into the castle."}, "Question", {q: "Did the knight kill the dragon?", hasCorrect: 0}],
-[["RRC14",[57,1]], "DashedSentence", {s: "The playful teenager baked the pie refused to share it with the others."}, "Question", {q: "Did the teenager make the pie?", hasCorrect: 1}],
-[["RRC5",[58,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["RRC5",[58,1]], "DashedSentence", {s: "The frazzled mother cut a cake slice sat down and ate it gratefully."}, "Question", {q: "Was the mother given the cake slice?", hasCorrect: 0}],
-[["filler37",[58,1]], "DashedSentence", {s: "The basketball player's ankle swelled as he limped off the court."}, "Question", {q: "Was the player injured?", hasCorrect: 0}],
-[["RRC22",[58,1]], "DashedSentence", {s: "The comical teenager sent the curious package was excited to open it."}, "Question", {q: "Was the teenager eager to open the package?", hasCorrect: 0}],
-[["filler10",[58,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["filler10",[58,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["filler23",[58,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["RRC40",[58,1]], "DashedSentence", {s: "The avid reader suggested the unusual book enjoyed reading it very much."}, "Question", {q: "Did the reader like the book?", hasCorrect: 0}],
-[["filler22",[59,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["filler22",[59,1]], "DashedSentence", {s: "The sparkles on the celebrity's dress glittered under the harsh lighting."}, "Question", {q: "Did the outfit have sparkles on it? ", hasCorrect: 0}],
-[["filler56",[59,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["filler56",[59,1]], "DashedSentence", {s: "The thieves stole the jewels but left everything else untouched."}, "Question", {q: "Did the thieves steal everything?", hasCorrect: 1}],
-[["filler13",[59,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler13",[59,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler35",[59,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler35",[59,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["RRC11",[60,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["RRC11",[60,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["filler15",[60,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["filler15",[60,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["RRC26",[60,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["RRC26",[60,1]], "DashedSentence", {s: "The young children stopped in the hallway were following the adults."}, "Question", {q: "Were the children following someone?", hasCorrect: 0}],
-[["filler40",[60,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["filler40",[60,1]], "DashedSentence", {s: "The clever siblings knew the best strategies to stay out of trouble."}, "Question", {q: "Were the siblings foolish?", hasCorrect: 1}],
-[["RRC30",[61,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["RRC30",[61,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["filler43",[61,1]], "DashedSentence", {s: "The young boy sang a song that showcased his remarkable talent."}, "Question", {q: "Was the boy talented?", hasCorrect: 0}],
-[["RRC18",[61,1]], "DashedSentence", {s: "The helpful librarian lent the frayed book took good care of it."}, "Question", {q: "Was the book in good condition?", hasCorrect: 1}],
-[["RRC23",[61,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["RRC23",[61,1]], "DashedSentence", {s: "The yellow frisbee dangled from the roof landed in the ditch."}, "Question", {q: "Did the frisbee stay on the roof?", hasCorrect: 1}],
-[["filler21",[61,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler21",[61,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler34",[62,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["filler34",[62,1]], "DashedSentence", {s: "The woman eagerly waited to hear back from the dance company."}, "Question", {q: "Was the woman looking forward to hearing some news?", hasCorrect: 0}],
-[["filler36",[62,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["filler36",[62,1]], "DashedSentence", {s: "The teacher saw through the mischevious student's act."}, "Question", {q: "Was the teacher fooled by the student? ", hasCorrect: 1}],
-[["filler61",[62,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler61",[62,1]], "DashedSentence", {s: "The students eagerly participated in the annual athletics festival."}, "Question", {q: "Did the students want to participate?", hasCorrect: 0}],
-[["filler30",[62,1]], "DashedSentence", {s: "The gardener mowed the wide lawns and seeded them."}, "Question", {q: "Were the lawns large?", hasCorrect: 0}],
-[["RRC25",[62,1]], "DashedSentence", {s: "The little girl sat on the couch fell down and started crying."}, "Question", {q: "Did the girl remain on the couch?", hasCorrect: 1}],
-[["RRC13",[63,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["RRC13",[63,1]], "DashedSentence", {s: "The skeptical editor read the story agreed reluctantly that it was very good."}, "Question", {q: "Did the editor expect to like the story?", hasCorrect: 1}],
-[["filler41",[63,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["RRC15",[63,1]], "DashedSentence", {s: "The hippie children rinsed in the river were later taken berry-picking."}, "Question", {q: "Were the children rinsed in a pond?", hasCorrect: 1}],
-[["RRC31",[63,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["RRC31",[63,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["filler49",[63,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler49",[63,1]], "DashedSentence", {s: "The strict instructor confiscated the students' cell phones before class."}, "Question", {q: "Was the instructor lenient?", hasCorrect: 1}],
-[["filler63",[64,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler63",[64,1]], "DashedSentence", {s: "The fish swam all around Jane and nipped at her legs."}, "Question", {q: "Did the fish avoid Jane?", hasCorrect: 1}],
-[["filler42",[64,1]], "DashedSentence", {s: "The seated boy rose up to answer the teacher's question on the chalkboard."}, "Question", {q: "Did the boy get out of his seat?", hasCorrect: 0}],
-[["RRC3",[64,1]], "DashedSentence", {s: "The frightened kid moved through the crowd got separated from Jane."}, "Question", {q: "Was the child pushed through the crowd?", hasCorrect: 0}],
-[["filler51",[64,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["filler51",[64,1]], "DashedSentence", {s: "Judy sank into the luxurious seat, enjoying the smell of leather."}, "Question", {q: "Was the seat made of leather? ", hasCorrect: 0}],
-[["filler19",[64,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["RRC9",[64,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["RRC10",[65,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["RRC10",[65,1]], "DashedSentence", {s: "My generous friend paid for the tickets bought popcorn for everyone."}, "Question", {q: "Was the friend uncharitable?", hasCorrect: 1}],
-[["filler48",[65,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler48",[65,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["RRC20",[65,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["RRC20",[65,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["filler31",[65,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["filler31",[65,1]], "DashedSentence", {s: "The babysitter ran frantically after the misbehaving children in the park."}, "Question", {q: "Were the children well behaved?", hasCorrect: 1}],
-[["filler29",[66,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler29",[66,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler28",[66,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["filler28",[66,1]], "DashedSentence", {s: "The doctor mistook the symptoms for food poisoning."}, "Question", {q: "Did the patient have food poisoning? ", hasCorrect: 1}],
-[["RRC34",[66,1]], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["RRC34",[66,1]], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["filler15",[66,1]], "DashedSentence", {s: "The jogger accidentally crushed the flower underneath her foot."}, "Question", {q: "Did the jogger intend to step on the flower?", hasCorrect: 1}],
-[["RRC11",[66,1]], "DashedSentence", {s: "The six volunteers taught the complicated procedure learned it very well."}, "Question", {q: "Did the volunteers teach the procedure?", hasCorrect: 1}],
-[["filler19",[67,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["filler19",[67,1]], "DashedSentence", {s: "The two students exchanged notes until they were caught by the teacher."}, "Question", {q: "Were the students caught by the teacher?", hasCorrect: 0}],
-[["filler35",[67,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler35",[67,1]], "DashedSentence", {s: "The celebrity redid her makeup before going on stage."}, "Question", {q: "Did the celebrity redo her makeup after going on stage?", hasCorrect: 1}],
-[["filler54",[67,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler54",[67,1]], "DashedSentence", {s: "The dieting boy deprived himself of sweets, sodas, and sugars."}, "Question", {q: "Did the boy want to be healthier?", hasCorrect: 0}],
-[["filler39",[67,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["filler39",[67,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["RRC16",[68,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["RRC16",[68,1]], "DashedSentence", {s: "The evil genie served the golden figs went into a trance."}, "Question", {q: "Did the genie eat the figs?", hasCorrect: 0}],
-[["filler52",[68,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["RRC25",[68,1]], "DashedSentence", {s: "The little girl sat on the couch fell down and started crying."}, "Question", {q: "Did the girl remain on the couch?", hasCorrect: 1}],
-[["filler29",[68,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler29",[68,1]], "DashedSentence", {s: "The singer practiced all day until she could hit the high notes every time."}, "Question", {q: "Was the singer able to hit the high notes without practicing?", hasCorrect: 1}],
-[["filler60",[68,1]], "DashedSentence", {s: "The businessman strode purposefully into the meeting."}, "Question", {q: "Was the businessman determined?", hasCorrect: 0}],
-[["RRC24",[68,1]], "DashedSentence", {s: "The talented musician played the beautiful song applauded in delight."}, "Question", {q: "Did the musician perform the song?", hasCorrect: 1}],
-[["filler59",[69,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler59",[69,1]], "DashedSentence", {s: "The rabbit hopped across the street without getting hit by a car."}, "Question", {q: "Did the rabbit make it to the other side safely?", hasCorrect: 0}],
-[["filler17",[69,1]], "DashedSentence", {s: "The student pretended to be sick until their mother left the room."}, "Question", {q: "Was the student really sick?", hasCorrect: 1}],
-[["RRC8",[69,1]], "DashedSentence", {s: "The experienced waitress cooked the grilled chicken sent her food back."}, "Question", {q: "Did the waitress cook the chicken?", hasCorrect: 1}],
-[["RRC29",[69,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["RRC29",[69,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["filler25",[69,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["RRC21",[69,1]], "DashedSentence", {s: "The blue pen rested on the desk wound up getting stolen."}, "Question", {q: "Was the pen blue?", hasCorrect: 0}],
-[["RRC33",[70,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["RRC33",[70,1]], "DashedSentence", {s: "The ferocious lions attacked during the day were unable to escape the hunters."}, "Question", {q: "Did the hunters catch the lions?", hasCorrect: 0}],
-[["filler47",[70,1]], "DashedSentence", {s: "The energetic cat batted at the dust specks floating in the air."}, "Question", {q: "Was the cat lazy?", hasCorrect: 1}],
-[["RRC39",[70,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["RRC1",[70,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["RRC1",[70,1]], "DashedSentence", {s: "The tired teacher brought the ungraded assignments was not looking forward to grading them."}, "Question", {q: "Was the teacher excited to grade the papers?", hasCorrect: 1}],
-[["filler2",[70,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["filler2",[70,1]], "DashedSentence", {s: "The ornate clock chimed loudly every time it struck a new hour."}, "Question", {q: "Was the clock working?", hasCorrect: 0}],
-[["RRC9",[71,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["RRC9",[71,1]], "DashedSentence", {s: "The experienced soldiers asked about the dangers conducted the midnight raid."}, "Question", {q: "Were the soldiers consulted about the dangers?", hasCorrect: 0}],
-[["filler21",[71,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler21",[71,1]], "DashedSentence", {s: "Foreigners unfailingly fall in love with the place."}, "Question", {q: "Did foreigners like the place?", hasCorrect: 0}],
-[["filler14",[71,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["filler14",[71,1]], "DashedSentence", {s: "Patrick woke up to find himself alone in the house."}, "Question", {q: "Were there other people around when Patrick woke up?", hasCorrect: 1}],
-[["filler37",[71,1]], "DashedSentence", {s: "The basketball player's ankle swelled as he limped off the court."}, "Question", {q: "Was the player injured?", hasCorrect: 0}],
-[["RRC4",[71,1]], "DashedSentence", {s: "The exicted girl bought the shiny toy played with it all day."}, "Question", {q: "Did the girl like the toy?", hasCorrect: 0}],
-[["filler23",[72,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["filler23",[72,1]], "DashedSentence", {s: "Even though Joanna flew directly to Boston on Friday, she still missed the conference."}, "Question", {q: "Was Joanna able to attend the conference?", hasCorrect: 1}],
-[["filler27",[72,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler27",[72,1]], "DashedSentence", {s: "Anita lay on the grass and looked up at the stars."}, "Question", {q: "Was Anita outside? ", hasCorrect: 0}],
-[["filler52",[72,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["filler52",[72,1]], "DashedSentence", {s: "The angry welder deleted the email without sending it to his boss."}, "Question", {q: "Did the boss receive the email?", hasCorrect: 1}],
-[["filler58",[72,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["filler58",[72,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["RRC2",[73,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["RRC2",[73,1]], "DashedSentence", {s: "The itchy cat scratched behind its ears purred loudly and happily in satisfaction."}, "Question", {q: "Did someone scratch the cat?", hasCorrect: 0}],
-[["filler50",[73,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["RRC6",[73,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["filler3",[73,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler3",[73,1]], "DashedSentence", {s: "A different kind of fire arose within Andrew as he thought about the new idea."}, "Question", {q: "Was Andrew passionate about the idea?", hasCorrect: 0}],
-[["filler9",[73,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["filler9",[73,1]], "DashedSentence", {s: "The married couple arose before dawn in order to prepare for the trip."}, "Question", {q: "Did the couple wake up early?", hasCorrect: 0}],
-[["RRC37",[74,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["RRC37",[74,1]], "DashedSentence", {s: "The rescue workers advised about the avalanche decided to stand by regardless."}, "Question", {q: "Did the rescue workers know about the avalanche?", hasCorrect: 0}],
-[["filler10",[74,1]], "DashedSentence", {s: "The sound of music attracted a number of guests to the cafe."}, "Question", {q: "Was the music coming from the cafe?", hasCorrect: 0}],
-[["RRC12",[74,1]], "DashedSentence", {s: "The sly merchant sold the faulty devices was angry with himself for not noticing."}, "Question", {q: "Did the merchant purchase the machines?", hasCorrect: 0}],
-[["RRC39",[74,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["RRC39",[74,1]], "DashedSentence", {s: "The frail woman refused the treatment decided to try her luck elsewhere."}, "Question", {q: "Did the woman stop looking for treatment?", hasCorrect: 1}],
-[["filler46",[74,1]], "DashedSentence", {s: "The talented lawyer argued that his client had never been to the scene of the crime."}, "Question", {q: "Was the lawyer talented?", hasCorrect: 0}],
-[["RRC30",[74,1]], "DashedSentence", {s: "The seasoned poker player dealt the cards was frustrated with his bad hand."}, "Question", {q: "Did the poker player give out the cards?", hasCorrect: 1}],
-[["filler13",[75,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler13",[75,1]], "DashedSentence", {s: "The dog was confined to the living room while the vacuum was running."}, "Question", {q: "Was the dog confined to the bedroom? ", hasCorrect: 1}],
-[["filler1",[75,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["filler1",[75,1]], "DashedSentence", {s: "The new student talked to all of her new classmates on the playground during recess."}, "Question", {q: "Were there some classmates the new student did not talk to?", hasCorrect: 1}],
-[["RRC7",[75,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["RRC7",[75,1]], "DashedSentence", {s: "The international student left the warm jacket was grateful for it in the winter."}, "Question", {q: "Was the winter cold?", hasCorrect: 0}],
-[["filler24",[75,1]], "DashedSentence", {s: "The jogger inhaled deeply in an attempt to regain his breath."}, "Question", {q: "Was the jogger out of breath?", hasCorrect: 0}],
-[["RRC18",[75,1]], "DashedSentence", {s: "The helpful librarian lent the frayed book took good care of it."}, "Question", {q: "Was the book in good condition?", hasCorrect: 1}],
-[["RRC31",[76,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["RRC31",[76,1]], "DashedSentence", {s: "The young kid undressed in a hurry got ready to go to school."}, "Question", {q: "Did the kid undress himself?", hasCorrect: 1}],
-[["filler39",[76,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["filler39",[76,1]], "DashedSentence", {s: "The crossing deer froze in fear as headlights approached them on the road."}, "Question", {q: "Were the deer scared?", hasCorrect: 0}],
-[["RRC6",[76,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["RRC6",[76,1]], "DashedSentence", {s: "The hospital patient bathed in his room read the newspaper constantly."}, "Question", {q: "Did the patient like to read?", hasCorrect: 0}],
-[["filler16",[76,1]], "DashedSentence", {s: "Peter did all the dishes before putting his children to bed."}, "Question", {q: "Did Peter do the dishes after putting the children bed?", hasCorrect: 1}],
-[["RRC27",[76,1]], "DashedSentence", {s: "The bearded man shaved two weeks ago liked his stylish new look."}, "Question", {q: "Was the man disappointed with his new look?", hasCorrect: 1}],
-[["RRC29",[77,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["RRC29",[77,1]], "DashedSentence", {s: "The little boy fed the rice crackers looked like he wanted to eat something else."}, "Question", {q: "Did the boy eat the crackers?", hasCorrect: 0}],
-[["filler25",[77,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["filler25",[77,1]], "DashedSentence", {s: "The new manager undid most of the good work of his predecessor."}, "Question", {q: "Did the previous manager do good work?", hasCorrect: 0}],
-[["filler48",[77,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler48",[77,1]], "DashedSentence", {s: "Adam's hand shook slightly as he inserted the key into the lock."}, "Question", {q: "Was Adam's hand very stable?", hasCorrect: 1}],
-[["filler7",[77,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler7",[77,1]], "DashedSentence", {s: "The excited toddler blew out all the candles and wished for a pony."}, "Question", {q: "Did the toddler want a pony?", hasCorrect: 0}],
-[["filler55",[78,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["filler55",[78,1]], "DashedSentence", {s: "The chairman spoke for half an hour at the meeting."}, "Question", {q: "Did the chairman speak for 45 minutes?", hasCorrect: 1}],
-[["filler58",[78,1]], "DashedSentence", {s: "The disappointed teacher graded the final exams very harshly."}, "Question", {q: "Did the teacher give lots of high grades?", hasCorrect: 1}],
-[["RRC17",[78,1]], "DashedSentence", {s: "The excited toddler built the lego house played with it all day."}, "Question", {q: "Did the toddler like the lego house?", hasCorrect: 0}],
-[["filler5",[78,1]], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["filler5",[78,1]], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["filler41",[78,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["filler41",[78,1]], "DashedSentence", {s: "The host family eagerly welcomed their exchange student with smiles and a meal."}, "Question", {q: "Was the host family reluctant to have the exchange student?", hasCorrect: 1}],
-[["filler38",[79,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler38",[79,1]], "DashedSentence", {s: "The contestants each ate over ten hot dogs as part of a speed-eating competition."}, "Question", {q: "Were over ten hot dogs eaten?", hasCorrect: 0}],
-[["filler46",[79,1]], "DashedSentence", {s: "The talented lawyer argued that his client had never been to the scene of the crime."}, "Question", {q: "Was the lawyer talented?", hasCorrect: 0}],
-[["RRC20",[79,1]], "DashedSentence", {s: "The angry workers warned about low wages decided to file complaints."}, "Question", {q: "Were the workers happy with their wages?", hasCorrect: 1}],
-[["filler50",[79,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["filler50",[79,1]], "DashedSentence", {s: "The children shrank back from the clown in revulsion."}, "Question", {q: "Did the children like the clown?", hasCorrect: 1}],
-[["filler17",[79,1]], "DashedSentence", {s: "The student pretended to be sick until their mother left the room."}, "Question", {q: "Was the student really sick?", hasCorrect: 1}],
-[["RRC35",[79,1]], "DashedSentence", {s: "The ailing mother prepared a hot meal ate it gratefully before going to bed."}, "Question", {q: "Did the mother cook the meal?", hasCorrect: 1}],
-[["filler57",[80,1]], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["filler57",[80,1]], "DashedSentence", {s: "The secret society framed a local man for all of their crimes."}, "Question", {q: "Was the man guilty?", hasCorrect: 1}],
-[["filler5",[80,1]], "DashedSentence", {s: "The kindergartner bade good bye to her mother and ran to her friends."}, "Question", {q: "Did the kindergartner bid good bye to her father?", hasCorrect: 1}],
-[["RRC34",[80,1]], "DashedSentence", {s: "The energetic kid kicked the ball caught it with one hand."}, "Question", {q: "Did the kid kick the ball?", hasCorrect: 1}],
-[["RRC32",[80,1]], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["RRC32",[80,1]], "DashedSentence", {s: "The nervous wrestler hurried through the stands hadn't seen his opponent."}, "Question", {q: "Did the wrestler know his opponent?", hasCorrect: 1}],
-[["filler45",[80,1]], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-[["filler45",[80,1]], "DashedSentence", {s: "The impatient brother immediately took the toy away from his younger sister."}, "Question", {q: "Did the brother like to share?", hasCorrect: 1}],
-
+[["filler30",1], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler30",1], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS19_ambig_unmodified",1], "DashedSentence", {s: "The lawyer established the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS19_unambig_unmodified",1], "DashedSentence", {s: "The lawyer established that the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler1",1], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+[["filler1",1], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ11_ambig_unmodified",1], "DashedSentence", {s: "Although the candidates debated the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ11_unambig_unmodified",1], "DashedSentence", {s: "Although the candidates debated, the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS16_unambig_unmodified",[2,1]], "DashedSentence", {s: "The priest recognized that two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS16_ambig_unmodified",[2,1]], "DashedSentence", {s: "The priest recognized two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler56",[2,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler56",[2,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler65",[2,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler65",[2,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler79",[2,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler79",[2,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler7",[3,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler7",[3,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler47",[3,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler47",[3,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS15_ambig_unmodified",[3,1]], "DashedSentence", {s: "The soldiers remembered the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS15_unambig_unmodified",[3,1]], "DashedSentence", {s: "The soldiers remembered that the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS13_ambig_unmodified",[3,1]], "DashedSentence", {s: "The tourists saw the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS13_unambig_unmodified",[3,1]], "DashedSentence", {s: "The tourists saw that the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_ambig_unmodified",[4,1]], "DashedSentence", {s: "Once the child played the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_unambig_unmodified",[4,1]], "DashedSentence", {s: "Once the child played, the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_ambig_unmodified",[4,1]], "DashedSentence", {s: "After the kids cheated the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_unambig_unmodified",[4,1]], "DashedSentence", {s: "After the kids cheated, the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler64",[4,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler64",[4,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler40",[4,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler40",[4,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler33",[5,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler33",[5,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler36",[5,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler36",[5,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler63",[5,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+[["filler63",[5,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS12_ambig_unmodified",[5,1]], "DashedSentence", {s: "The woman noticed the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS12_unambig_unmodified",[5,1]], "DashedSentence", {s: "The woman noticed that the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler52",[6,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler52",[6,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_unambig_unmodified",[6,1]], "DashedSentence", {s: "The store guaranteed that the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_ambig_unmodified",[6,1]], "DashedSentence", {s: "The store guaranteed the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler46",[6,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler46",[6,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler68",[6,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler68",[6,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler74",[7,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler74",[7,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler57",[7,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler57",[7,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_unambig_unmodified",[7,1]], "DashedSentence", {s: "Before the tribe worshipped, the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_ambig_unmodified",[7,1]], "DashedSentence", {s: "Before the tribe worshipped the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_unambig_unmodified",[7,1]], "DashedSentence", {s: "Even_though the girl phoned, the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_ambig_unmodified",[7,1]], "DashedSentence", {s: "Even_though the girl phoned the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS7_ambig_unmodified",[8,1]], "DashedSentence", {s: "The apprentice forgot the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS7_unambig_unmodified",[8,1]], "DashedSentence", {s: "The apprentice forgot that the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler22",[8,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler22",[8,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler76",[8,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler76",[8,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler70",[8,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler70",[8,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler35",[9,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler35",[9,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS6_ambig_unmodified",[9,1]], "DashedSentence", {s: "The worker maintained the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS6_unambig_unmodified",[9,1]], "DashedSentence", {s: "The worker maintained that the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler56",[9,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler56",[9,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler20",[9,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler20",[9,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS8_unambig_unmodified",[10,1]], "DashedSentence", {s: "The committee mentioned that the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS8_ambig_unmodified",[10,1]], "DashedSentence", {s: "The committee mentioned the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler63",[10,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+[["filler63",[10,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+[["filler12",[10,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+[["filler12",[10,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+[["filler80",[10,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler80",[10,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler11",[11,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler11",[11,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ6_unambig_unmodified",[11,1]], "DashedSentence", {s: "As the couple danced, the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ6_ambig_unmodified",[11,1]], "DashedSentence", {s: "As the couple danced the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_ambig_unmodified",[11,1]], "DashedSentence", {s: "In_case the team lost the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_unambig_unmodified",[11,1]], "DashedSentence", {s: "In_case the team lost, the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler62",[11,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler62",[11,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_unambig_unmodified",[12,1]], "DashedSentence", {s: "In_case the team lost, the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_ambig_unmodified",[12,1]], "DashedSentence", {s: "In_case the team lost the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler69",[12,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler69",[12,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler13",[12,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler13",[12,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS18_unambig_unmodified",[12,1]], "DashedSentence", {s: "The owners insured that the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS18_ambig_unmodified",[12,1]], "DashedSentence", {s: "The owners insured the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler15",[13,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler15",[13,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler19",[13,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler19",[13,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_unambig_unmodified",[13,1]], "DashedSentence", {s: "The army found that the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_ambig_unmodified",[13,1]], "DashedSentence", {s: "The army found the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler6",[13,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+[["filler6",[13,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+[["filler60",[14,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+[["filler60",[14,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_ambig_unmodified",[14,1]], "DashedSentence", {s: "Because the train stopped the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_unambig_unmodified",[14,1]], "DashedSentence", {s: "Because the train stopped, the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler18",[14,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler18",[14,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler58",[14,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler58",[14,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler78",[15,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler78",[15,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler2",[15,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+[["filler2",[15,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_unambig_unmodified",[15,1]], "DashedSentence", {s: "Even_though the band left, the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_ambig_unmodified",[15,1]], "DashedSentence", {s: "Even_though the band left the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler37",[15,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler37",[15,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler42",[16,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler42",[16,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler71",[16,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler71",[16,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler17",[16,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler17",[16,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_ambig_unmodified",[16,1]], "DashedSentence", {s: "After the librarian called the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_unambig_unmodified",[16,1]], "DashedSentence", {s: "After the librarian called, the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS18_ambig_unmodified",[17,1]], "DashedSentence", {s: "The owners insured the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS18_unambig_unmodified",[17,1]], "DashedSentence", {s: "The owners insured that the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_unambig_unmodified",[17,1]], "DashedSentence", {s: "The soldiers remembered that the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_ambig_unmodified",[17,1]], "DashedSentence", {s: "The soldiers remembered the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS6_ambig_unmodified",[17,1]], "DashedSentence", {s: "The worker maintained the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS6_unambig_unmodified",[17,1]], "DashedSentence", {s: "The worker maintained that the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler67",[17,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler67",[17,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler8",[18,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler8",[18,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler45",[18,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler45",[18,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler27",[18,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+[["filler27",[18,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ5_unambig_unmodified",[18,1]], "DashedSentence", {s: "Once the child played, the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ5_ambig_unmodified",[18,1]], "DashedSentence", {s: "Once the child played the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler32",[19,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler32",[19,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler59",[19,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler59",[19,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler23",[19,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler23",[19,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler22",[19,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler22",[19,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ9_ambig_unmodified",[20,1]], "DashedSentence", {s: "Even_though the girl phoned the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ9_unambig_unmodified",[20,1]], "DashedSentence", {s: "Even_though the girl phoned, the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ16_unambig_unmodified",[20,1]], "DashedSentence", {s: "While the narrator read, the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ16_ambig_unmodified",[20,1]], "DashedSentence", {s: "While the narrator read the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler75",[20,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler75",[20,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler16",[20,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler16",[20,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler49",[21,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler49",[21,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler44",[21,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler44",[21,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ4_ambig_unmodified",[21,1]], "DashedSentence", {s: "Because the class failed the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ4_unambig_unmodified",[21,1]], "DashedSentence", {s: "Because the class failed, the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler32",[21,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler32",[21,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler13",[22,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler13",[22,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler38",[22,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler38",[22,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler10",[22,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler10",[22,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler59",[22,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler59",[22,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler61",[23,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler61",[23,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler58",[23,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler58",[23,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler74",[23,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler74",[23,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_unambig_unmodified",[23,1]], "DashedSentence", {s: "The employees understood that the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_ambig_unmodified",[23,1]], "DashedSentence", {s: "The employees understood the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_unambig_unmodified",[24,1]], "DashedSentence", {s: "Before the tribe worshipped, the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_ambig_unmodified",[24,1]], "DashedSentence", {s: "Before the tribe worshipped the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler72",[24,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler72",[24,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS19_unambig_unmodified",[24,1]], "DashedSentence", {s: "The lawyer established that the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS19_ambig_unmodified",[24,1]], "DashedSentence", {s: "The lawyer established the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler61",[24,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler61",[24,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler50",[25,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler50",[25,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ4_ambig_unmodified",[25,1]], "DashedSentence", {s: "Because the class failed the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ4_unambig_unmodified",[25,1]], "DashedSentence", {s: "Because the class failed, the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler33",[25,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler33",[25,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS4_unambig_unmodified",[25,1]], "DashedSentence", {s: "The traveler heard that the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS4_ambig_unmodified",[25,1]], "DashedSentence", {s: "The traveler heard the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS17_ambig_unmodified",[26,1]], "DashedSentence", {s: "The reporter revealed the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS17_unambig_unmodified",[26,1]], "DashedSentence", {s: "The reporter revealed that the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler5",[26,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+[["filler5",[26,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_ambig_unmodified",[26,1]], "DashedSentence", {s: "Although the maid cleaned the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_unambig_unmodified",[26,1]], "DashedSentence", {s: "Although the maid cleaned, the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler31",[26,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler31",[26,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler12",[27,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+[["filler12",[27,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_unambig_unmodified",[27,1]], "DashedSentence", {s: "The employees understood that the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_ambig_unmodified",[27,1]], "DashedSentence", {s: "The employees understood the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler19",[27,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler19",[27,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_unambig_unmodified",[27,1]], "DashedSentence", {s: "After the kids cheated, the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_ambig_unmodified",[27,1]], "DashedSentence", {s: "After the kids cheated the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler51",[28,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler51",[28,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler67",[28,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler67",[28,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler69",[28,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler69",[28,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler25",[28,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+[["filler25",[28,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ19_unambig_unmodified",[29,1]], "DashedSentence", {s: "As the customer paid, the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ19_ambig_unmodified",[29,1]], "DashedSentence", {s: "As the customer paid the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler27",[29,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+[["filler27",[29,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+[["filler55",[29,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler55",[29,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_ambig_unmodified",[29,1]], "DashedSentence", {s: "While the artist painted the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_unambig_unmodified",[29,1]], "DashedSentence", {s: "While the artist painted, the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler31",[30,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler31",[30,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS3_ambig_unmodified",[30,1]], "DashedSentence", {s: "The old_man recalled the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS3_unambig_unmodified",[30,1]], "DashedSentence", {s: "The old_man recalled that the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS8_ambig_unmodified",[30,1]], "DashedSentence", {s: "The committee mentioned the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS8_unambig_unmodified",[30,1]], "DashedSentence", {s: "The committee mentioned that the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler2",[30,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+[["filler2",[30,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_unambig_unmodified",[31,1]], "DashedSentence", {s: "The journalist confirmed that the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_ambig_unmodified",[31,1]], "DashedSentence", {s: "The journalist confirmed the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler28",[31,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler28",[31,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler8",[31,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler8",[31,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler14",[31,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler14",[31,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler64",[32,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler64",[32,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler80",[32,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler80",[32,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler47",[32,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler47",[32,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler71",[32,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler71",[32,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler29",[33,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler29",[33,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+did not find yes or no
+[["NPZ11_unambig_unmodified",[33,1]], "DashedSentence", {s: "Although the candidates debated, the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ11_ambig_unmodified",[33,1]], "DashedSentence", {s: "Although the candidates debated the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler11",[33,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler11",[33,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler38",[33,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler38",[33,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_ambig_unmodified",[34,1]], "DashedSentence", {s: "Even_though the army surrendered the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_unambig_unmodified",[34,1]], "DashedSentence", {s: "Even_though the army surrendered, the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler21",[34,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+[["filler21",[34,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS17_unambig_unmodified",[34,1]], "DashedSentence", {s: "The reporter revealed that the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS17_ambig_unmodified",[34,1]], "DashedSentence", {s: "The reporter revealed the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ19_unambig_unmodified",[34,1]], "DashedSentence", {s: "As the customer paid, the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ19_ambig_unmodified",[34,1]], "DashedSentence", {s: "As the customer paid the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler65",[35,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler65",[35,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_unambig_unmodified",[35,1]], "DashedSentence", {s: "The traveler heard that the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_ambig_unmodified",[35,1]], "DashedSentence", {s: "The traveler heard the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler54",[35,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler54",[35,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler7",[35,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler7",[35,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS13_unambig_unmodified",[36,1]], "DashedSentence", {s: "The tourists saw that the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS13_ambig_unmodified",[36,1]], "DashedSentence", {s: "The tourists saw the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler70",[36,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler70",[36,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_unambig_unmodified",[36,1]], "DashedSentence", {s: "While the narrator read, the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_ambig_unmodified",[36,1]], "DashedSentence", {s: "While the narrator read the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_ambig_unmodified",[36,1]], "DashedSentence", {s: "The scientist proved the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_unambig_unmodified",[36,1]], "DashedSentence", {s: "The scientist proved that the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler14",[37,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler14",[37,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler17",[37,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler17",[37,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler72",[37,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler72",[37,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler41",[37,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler41",[37,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler16",[38,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler16",[38,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler55",[38,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler55",[38,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ12_ambig_unmodified",[38,1]], "DashedSentence", {s: "Because the train stopped the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ12_unambig_unmodified",[38,1]], "DashedSentence", {s: "Because the train stopped, the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler26",[38,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler26",[38,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler40",[39,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler40",[39,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler53",[39,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler53",[39,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler77",[39,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler77",[39,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_ambig_unmodified",[39,1]], "DashedSentence", {s: "In_case the manager quit the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_unambig_unmodified",[39,1]], "DashedSentence", {s: "In_case the manager quit, the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler4",[40,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler4",[40,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_ambig_unmodified",[40,1]], "DashedSentence", {s: "The army found the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_unambig_unmodified",[40,1]], "DashedSentence", {s: "The army found that the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_ambig_unmodified",[40,1]], "DashedSentence", {s: "The coach discovered the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_unambig_unmodified",[40,1]], "DashedSentence", {s: "The coach discovered that the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler57",[40,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler57",[40,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler23",[41,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler23",[41,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler46",[41,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler46",[41,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler42",[41,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler42",[41,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler3",[41,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler3",[41,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler39",[42,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler39",[42,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler79",[42,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler79",[42,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler45",[42,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler45",[42,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler34",[42,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler34",[42,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_ambig_unmodified",[43,1]], "DashedSentence", {s: "After the librarian called the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_unambig_unmodified",[43,1]], "DashedSentence", {s: "After the librarian called, the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler26",[43,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler26",[43,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler43",[43,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler43",[43,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_ambig_unmodified",[43,1]], "DashedSentence", {s: "The journalist confirmed the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_unambig_unmodified",[43,1]], "DashedSentence", {s: "The journalist confirmed that the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler54",[44,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler54",[44,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler77",[44,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler77",[44,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_unambig_unmodified",[44,1]], "DashedSentence", {s: "Even_though the janitor vacuumed, the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_ambig_unmodified",[44,1]], "DashedSentence", {s: "Even_though the janitor vacuumed the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler21",[44,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+[["filler21",[44,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_ambig_unmodified",[45,1]], "DashedSentence", {s: "The mechanic accepted the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_unambig_unmodified",[45,1]], "DashedSentence", {s: "The mechanic accepted that the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ20_ambig_unmodified",[45,1]], "DashedSentence", {s: "While the artist painted the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ20_unambig_unmodified",[45,1]], "DashedSentence", {s: "While the artist painted, the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler4",[45,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler4",[45,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler78",[45,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler78",[45,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler37",[46,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler37",[46,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler66",[46,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler66",[46,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler5",[46,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+[["filler5",[46,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS16_unambig_unmodified",[46,1]], "DashedSentence", {s: "The priest recognized that two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS16_ambig_unmodified",[46,1]], "DashedSentence", {s: "The priest recognized two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler68",[47,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler68",[47,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_unambig_unmodified",[47,1]], "DashedSentence", {s: "Although the maid cleaned, the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_ambig_unmodified",[47,1]], "DashedSentence", {s: "Although the maid cleaned the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler30",[47,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler30",[47,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler73",[47,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler73",[47,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_unambig_unmodified",[48,1]], "DashedSentence", {s: "After the mugger attacked, the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_ambig_unmodified",[48,1]], "DashedSentence", {s: "After the mugger attacked the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler25",[48,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+[["filler25",[48,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS3_unambig_unmodified",[48,1]], "DashedSentence", {s: "The old_man recalled that the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS3_ambig_unmodified",[48,1]], "DashedSentence", {s: "The old_man recalled the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler35",[48,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler35",[48,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler6",[49,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+[["filler6",[49,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS12_unambig_unmodified",[49,1]], "DashedSentence", {s: "The woman noticed that the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS12_ambig_unmodified",[49,1]], "DashedSentence", {s: "The woman noticed the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler49",[49,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler49",[49,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_unambig_unmodified",[49,1]], "DashedSentence", {s: "As the couple danced, the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_ambig_unmodified",[49,1]], "DashedSentence", {s: "As the couple danced the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ18_unambig_unmodified",[50,1]], "DashedSentence", {s: "In_case the manager quit, the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ18_ambig_unmodified",[50,1]], "DashedSentence", {s: "In_case the manager quit the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler18",[50,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler18",[50,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_unambig_unmodified",[50,1]], "DashedSentence", {s: "After the mugger attacked, the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_ambig_unmodified",[50,1]], "DashedSentence", {s: "After the mugger attacked the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler66",[50,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler66",[50,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler1",[51,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+[["filler1",[51,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+[["filler73",[51,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler73",[51,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler52",[51,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler52",[51,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS7_unambig_unmodified",[51,1]], "DashedSentence", {s: "The apprentice forgot that the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS7_ambig_unmodified",[51,1]], "DashedSentence", {s: "The apprentice forgot the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler41",[52,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler41",[52,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_ambig_unmodified",[52,1]], "DashedSentence", {s: "Even_though the band left the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_unambig_unmodified",[52,1]], "DashedSentence", {s: "Even_though the band left, the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler15",[52,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler15",[52,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler24",[52,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler24",[52,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler43",[53,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler43",[53,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler48",[53,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler48",[53,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler28",[53,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler28",[53,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler53",[53,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler53",[53,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler9",[54,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler9",[54,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler20",[54,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler20",[54,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_ambig_unmodified",[54,1]], "DashedSentence", {s: "Even_though the army surrendered the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_unambig_unmodified",[54,1]], "DashedSentence", {s: "Even_though the army surrendered, the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_ambig_unmodified",[54,1]], "DashedSentence", {s: "The store guaranteed the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_unambig_unmodified",[54,1]], "DashedSentence", {s: "The store guaranteed that the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler34",[55,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler34",[55,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_ambig_unmodified",[55,1]], "DashedSentence", {s: "Even_though the janitor vacuumed the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_unambig_unmodified",[55,1]], "DashedSentence", {s: "Even_though the janitor vacuumed, the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler9",[55,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler9",[55,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler44",[55,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler44",[55,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS14_unambig_unmodified",[56,1]], "DashedSentence", {s: "The scientist proved that the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS14_ambig_unmodified",[56,1]], "DashedSentence", {s: "The scientist proved the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler24",[56,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler24",[56,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler36",[56,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler36",[56,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ2_ambig_unmodified",[56,1]], "DashedSentence", {s: "In_case the executive forgot the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ2_unambig_unmodified",[56,1]], "DashedSentence", {s: "In_case the executive forgot, the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler3",[57,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler3",[57,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS11_ambig_unmodified",[57,1]], "DashedSentence", {s: "The coach discovered the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS11_unambig_unmodified",[57,1]], "DashedSentence", {s: "The coach discovered that the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler50",[57,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler50",[57,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler39",[57,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler39",[57,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler10",[58,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler10",[58,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler75",[58,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler75",[58,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler60",[58,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+[["filler60",[58,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_ambig_unmodified",[58,1]], "DashedSentence", {s: "The mechanic accepted the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_unambig_unmodified",[58,1]], "DashedSentence", {s: "The mechanic accepted that the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ2_unambig_unmodified",[59,1]], "DashedSentence", {s: "In_case the executive forgot, the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ2_ambig_unmodified",[59,1]], "DashedSentence", {s: "In_case the executive forgot the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS10_ambig_unmodified",[59,1]], "DashedSentence", {s: "The umpire warned the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS10_unambig_unmodified",[59,1]], "DashedSentence", {s: "The umpire warned that the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS10_unambig_unmodified",[59,1]], "DashedSentence", {s: "The umpire warned that the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS10_ambig_unmodified",[59,1]], "DashedSentence", {s: "The umpire warned the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler48",[59,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler48",[59,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler62",[60,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler62",[60,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler76",[60,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler76",[60,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler29",[60,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler29",[60,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler51",[60,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler51",[60,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler76",[61,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler76",[61,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler62",[61,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler62",[61,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler51",[61,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler51",[61,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler29",[61,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler29",[61,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+did not find yes or no
+[["NPS10_ambig_unmodified",[62,1]], "DashedSentence", {s: "The umpire warned the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS10_unambig_unmodified",[62,1]], "DashedSentence", {s: "The umpire warned that the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ2_unambig_unmodified",[62,1]], "DashedSentence", {s: "In_case the executive forgot, the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ2_ambig_unmodified",[62,1]], "DashedSentence", {s: "In_case the executive forgot the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler48",[62,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler48",[62,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS10_unambig_unmodified",[62,1]], "DashedSentence", {s: "The umpire warned that the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS10_ambig_unmodified",[62,1]], "DashedSentence", {s: "The umpire warned the spectators would probably get too rowdy if beer was served."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler75",[63,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler75",[63,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler10",[63,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler10",[63,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_ambig_unmodified",[63,1]], "DashedSentence", {s: "The mechanic accepted the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS2_unambig_unmodified",[63,1]], "DashedSentence", {s: "The mechanic accepted that the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler60",[63,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+[["filler60",[63,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_ambig_unmodified",[64,1]], "DashedSentence", {s: "The coach discovered the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_unambig_unmodified",[64,1]], "DashedSentence", {s: "The coach discovered that the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler3",[64,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler3",[64,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler39",[64,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler39",[64,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler50",[64,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler50",[64,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler24",[65,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler24",[65,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_unambig_unmodified",[65,1]], "DashedSentence", {s: "The scientist proved that the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_ambig_unmodified",[65,1]], "DashedSentence", {s: "The scientist proved the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ2_ambig_unmodified",[65,1]], "DashedSentence", {s: "In_case the executive forgot the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ2_unambig_unmodified",[65,1]], "DashedSentence", {s: "In_case the executive forgot, the assistant would remind him of his daily meetings and appointments."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler36",[65,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler36",[65,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_ambig_unmodified",[66,1]], "DashedSentence", {s: "Even_though the janitor vacuumed the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ10_unambig_unmodified",[66,1]], "DashedSentence", {s: "Even_though the janitor vacuumed, the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler34",[66,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler34",[66,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler44",[66,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler44",[66,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler9",[66,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler9",[66,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler20",[67,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler20",[67,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler9",[67,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+[["filler9",[67,1]], "DashedSentence", {s: "The patrolmen who were on the peak rescued the skier after giving up all hope of a happy ending."}, "Question", {q: "Was the skier killed?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_ambig_unmodified",[67,1]], "DashedSentence", {s: "The store guaranteed the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS20_unambig_unmodified",[67,1]], "DashedSentence", {s: "The store guaranteed that the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_ambig_unmodified",[67,1]], "DashedSentence", {s: "Even_though the army surrendered the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ15_unambig_unmodified",[67,1]], "DashedSentence", {s: "Even_though the army surrendered, the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler48",[68,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler48",[68,1]], "DashedSentence", {s: "Because the passenger missed the train he had to wait for the next one which was scheduled two hours later."}, "Question", {q: "Was the passenger on time?   ", hasCorrect: 1}],
+[["filler43",[68,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler43",[68,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler53",[68,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler53",[68,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler28",[68,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler28",[68,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ1_ambig_unmodified",[69,1]], "DashedSentence", {s: "Even_though the band left the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ1_unambig_unmodified",[69,1]], "DashedSentence", {s: "Even_though the band left, the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler41",[69,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler41",[69,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler24",[69,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler24",[69,1]], "DashedSentence", {s: "Many of the customers at the restaurant became sick because the sushi delivered that morning wasn't very fresh."}, "Question", {q: "Did the customers get food poisoning?   ", hasCorrect: 0}],
+[["filler15",[69,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler15",[69,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler73",[70,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler73",[70,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler1",[70,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+[["filler1",[70,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS7_unambig_unmodified",[70,1]], "DashedSentence", {s: "The apprentice forgot that the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS7_ambig_unmodified",[70,1]], "DashedSentence", {s: "The apprentice forgot the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler52",[70,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler52",[70,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler18",[71,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler18",[71,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_unambig_unmodified",[71,1]], "DashedSentence", {s: "In_case the manager quit, the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_ambig_unmodified",[71,1]], "DashedSentence", {s: "In_case the manager quit the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler66",[71,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler66",[71,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_unambig_unmodified",[71,1]], "DashedSentence", {s: "After the mugger attacked, the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_ambig_unmodified",[71,1]], "DashedSentence", {s: "After the mugger attacked the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS12_unambig_unmodified",[72,1]], "DashedSentence", {s: "The woman noticed that the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS12_ambig_unmodified",[72,1]], "DashedSentence", {s: "The woman noticed the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler6",[72,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+[["filler6",[72,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_unambig_unmodified",[72,1]], "DashedSentence", {s: "As the couple danced, the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_ambig_unmodified",[72,1]], "DashedSentence", {s: "As the couple danced the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler49",[72,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler49",[72,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler25",[73,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+[["filler25",[73,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_unambig_unmodified",[73,1]], "DashedSentence", {s: "After the mugger attacked, the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ8_ambig_unmodified",[73,1]], "DashedSentence", {s: "After the mugger attacked the jogger was rubbing his sore leg, but it didn't help."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler35",[73,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler35",[73,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS3_unambig_unmodified",[73,1]], "DashedSentence", {s: "The old_man recalled that the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS3_ambig_unmodified",[73,1]], "DashedSentence", {s: "The old_man recalled the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ3_unambig_unmodified",[74,1]], "DashedSentence", {s: "Although the maid cleaned, the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ3_ambig_unmodified",[74,1]], "DashedSentence", {s: "Although the maid cleaned the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler68",[74,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler68",[74,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler73",[74,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler73",[74,1]], "DashedSentence", {s: "The retailer estimated the price and made his offer accordingly."}, "Question", {q: "Was the retailer making a random offer?   ", hasCorrect: 1}],
+[["filler30",[74,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler30",[74,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler66",[75,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler66",[75,1]], "DashedSentence", {s: "The teenager called his mother to tell her he was staying out late."}, "Question", {q: "Would the teenager be home for dinner?   ", hasCorrect: 1}],
+[["filler37",[75,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler37",[75,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS16_unambig_unmodified",[75,1]], "DashedSentence", {s: "The priest recognized that two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS16_ambig_unmodified",[75,1]], "DashedSentence", {s: "The priest recognized two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler5",[75,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+[["filler5",[75,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_ambig_unmodified",[76,1]], "DashedSentence", {s: "While the artist painted the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_unambig_unmodified",[76,1]], "DashedSentence", {s: "While the artist painted, the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS2_ambig_unmodified",[76,1]], "DashedSentence", {s: "The mechanic accepted the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS2_unambig_unmodified",[76,1]], "DashedSentence", {s: "The mechanic accepted that the car looked in worse shape than before he worked on it."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler78",[76,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler78",[76,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler4",[76,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler4",[76,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler77",[77,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler77",[77,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler54",[77,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler54",[77,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler21",[77,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+[["filler21",[77,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ10_unambig_unmodified",[77,1]], "DashedSentence", {s: "Even_though the janitor vacuumed, the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ10_ambig_unmodified",[77,1]], "DashedSentence", {s: "Even_though the janitor vacuumed the carpet was covered with dust and crumbs from the office party."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler26",[78,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler26",[78,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ14_ambig_unmodified",[78,1]], "DashedSentence", {s: "After the librarian called the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ14_unambig_unmodified",[78,1]], "DashedSentence", {s: "After the librarian called, the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_ambig_unmodified",[78,1]], "DashedSentence", {s: "The journalist confirmed the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS5_unambig_unmodified",[78,1]], "DashedSentence", {s: "The journalist confirmed that the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler43",[78,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler43",[78,1]], "DashedSentence", {s: "To ensure that the security guard watched the televisions the supervisor would not let him leave his desk even if he had to go to the bathroom."}, "Question", {q: "Was the guard confined to his desk while he worked?   ", hasCorrect: 0}],
+[["filler79",[79,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler79",[79,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler39",[79,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler39",[79,1]], "DashedSentence", {s: "Some birds flew from the shadowy hill with the big pine tree into the sunlight while picnicking tourists looked on in wonder."}, "Question", {q: "Was the hill dark?   ", hasCorrect: 0}],
+[["filler34",[79,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler34",[79,1]], "DashedSentence", {s: "All the strain of cycling and camping was enough to make the backpackers reconsider a return trip to the national park next year."}, "Question", {q: "Did the backpackers find the trails easy?   ", hasCorrect: 1}],
+[["filler45",[79,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler45",[79,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler46",[80,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler46",[80,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler23",[80,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler23",[80,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler3",[80,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler3",[80,1]], "DashedSentence", {s: "The truck near the sidewalk hit the bicyclist after the driver failed to stop for a red light."}, "Question", {q: "Did the bicyclist collide with a pedestrian?   ", hasCorrect: 1}],
+[["filler42",[80,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler42",[80,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS9_ambig_unmodified",[81,1]], "DashedSentence", {s: "The army found the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS9_unambig_unmodified",[81,1]], "DashedSentence", {s: "The army found that the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler4",[81,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler4",[81,1]], "DashedSentence", {s: "The clerk at the store stabbed the new boss because he had forgotten to take his medication."}, "Question", {q: "Was the boss new?   ", hasCorrect: 0}],
+[["filler57",[81,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler57",[81,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_ambig_unmodified",[81,1]], "DashedSentence", {s: "The coach discovered the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS11_unambig_unmodified",[81,1]], "DashedSentence", {s: "The coach discovered that the player tried to show off all the time."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler53",[82,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler53",[82,1]], "DashedSentence", {s: "Though the elephant ate the peanuts, he did not perform the trick all the children were waiting for."}, "Question", {q: "Did the elephant like peanuts?   ", hasCorrect: 0}],
+[["filler40",[82,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler40",[82,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_ambig_unmodified",[82,1]], "DashedSentence", {s: "In_case the manager quit the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ18_unambig_unmodified",[82,1]], "DashedSentence", {s: "In_case the manager quit, the company began training new staff in several departments."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler77",[82,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler77",[82,1]], "DashedSentence", {s: "The student realized the mistake as soon as he turned in his exam."}, "Question", {q: "Did the student answer everything correctly?   ", hasCorrect: 1}],
+[["filler55",[83,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler55",[83,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler16",[83,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler16",[83,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler26",[83,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+[["filler26",[83,1]], "DashedSentence", {s: "The waitress at the diner decided to move to New York and pursue her dream to become a dancer."}, "Question", {q: "Did the waitress work at a diner?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_ambig_unmodified",[83,1]], "DashedSentence", {s: "Because the train stopped the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_unambig_unmodified",[83,1]], "DashedSentence", {s: "Because the train stopped, the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler17",[84,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler17",[84,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler14",[84,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler14",[84,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler41",[84,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler41",[84,1]], "DashedSentence", {s: "The loaves of bread were eaten in the banquet hall so that the guests would not dirty the carpet in the lobby."}, "Question", {q: "Was the bread served in the banquet hall to limit the mess?   ", hasCorrect: 0}],
+[["filler72",[84,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler72",[84,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler70",[85,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler70",[85,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS13_unambig_unmodified",[85,1]], "DashedSentence", {s: "The tourists saw that the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS13_ambig_unmodified",[85,1]], "DashedSentence", {s: "The tourists saw the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_ambig_unmodified",[85,1]], "DashedSentence", {s: "The scientist proved the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS14_unambig_unmodified",[85,1]], "DashedSentence", {s: "The scientist proved that the theory could help build cars with better mileage."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_unambig_unmodified",[85,1]], "DashedSentence", {s: "While the narrator read, the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_ambig_unmodified",[85,1]], "DashedSentence", {s: "While the narrator read the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_unambig_unmodified",[86,1]], "DashedSentence", {s: "The traveler heard that the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_ambig_unmodified",[86,1]], "DashedSentence", {s: "The traveler heard the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler65",[86,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler65",[86,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler7",[86,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler7",[86,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler54",[86,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler54",[86,1]], "DashedSentence", {s: "Because Emily watched a movie, her husband could not watch the football game."}, "Question", {q: "Was the TV set on?   ", hasCorrect: 0}],
+[["filler21",[87,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+[["filler21",[87,1]], "DashedSentence", {s: "The seminar was incredibly boring for most of the students although the people in the front row seemed to enjoy themselves."}, "Question", {q: "Did a few people like the lecture?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ15_ambig_unmodified",[87,1]], "DashedSentence", {s: "Even_though the army surrendered the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ15_unambig_unmodified",[87,1]], "DashedSentence", {s: "Even_though the army surrendered, the territory was filled with land mines that still had to be cleared."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ19_unambig_unmodified",[87,1]], "DashedSentence", {s: "As the customer paid, the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ19_ambig_unmodified",[87,1]], "DashedSentence", {s: "As the customer paid the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS17_unambig_unmodified",[87,1]], "DashedSentence", {s: "The reporter revealed that the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS17_ambig_unmodified",[87,1]], "DashedSentence", {s: "The reporter revealed the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ11_unambig_unmodified",[88,1]], "DashedSentence", {s: "Although the candidates debated, the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ11_ambig_unmodified",[88,1]], "DashedSentence", {s: "Although the candidates debated the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler29",[88,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler29",[88,1]], "DashedSentence", {s: "The librarian noticed that a large number of very rare books were misplaced after the carpenters had completed their job."}, "Question", {q: "Did a student notice the misplaced books?", hasCorrect: 1}],
+[["filler38",[88,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler38",[88,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler11",[88,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler11",[88,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler80",[89,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler80",[89,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler64",[89,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler64",[89,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler71",[89,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler71",[89,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler47",[89,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler47",[89,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler28",[90,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+[["filler28",[90,1]], "DashedSentence", {s: "The store clerk trusted the customer who said the toy she had purchased was broken."}, "Question", {q: "Did the store clerk think that the woman was lying about the toy?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS5_unambig_unmodified",[90,1]], "DashedSentence", {s: "The journalist confirmed that the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS5_ambig_unmodified",[90,1]], "DashedSentence", {s: "The journalist confirmed the story would be published on the front page the next day."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler14",[90,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler14",[90,1]], "DashedSentence", {s: "The rain flooded the car that had been abandoned next to a van down by the river."}, "Question", {q: "Was the car abandoned next to a truck?   ", hasCorrect: 1}],
+[["filler8",[90,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler8",[90,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS3_ambig_unmodified",[91,1]], "DashedSentence", {s: "The old_man recalled the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS3_unambig_unmodified",[91,1]], "DashedSentence", {s: "The old_man recalled that the nurse had complained to the doctor that the patient never took his medication."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler31",[91,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler31",[91,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler2",[91,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+[["filler2",[91,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS8_ambig_unmodified",[91,1]], "DashedSentence", {s: "The committee mentioned the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS8_unambig_unmodified",[91,1]], "DashedSentence", {s: "The committee mentioned that the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler27",[92,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+[["filler27",[92,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ19_unambig_unmodified",[92,1]], "DashedSentence", {s: "As the customer paid, the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ19_ambig_unmodified",[92,1]], "DashedSentence", {s: "As the customer paid the waitress could see how large the tip was."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_ambig_unmodified",[92,1]], "DashedSentence", {s: "While the artist painted the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ20_unambig_unmodified",[92,1]], "DashedSentence", {s: "While the artist painted, the furniture was covered with white cloths to shield it from dust."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler55",[92,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler55",[92,1]], "DashedSentence", {s: "If Ann lost the bet, her boyfriend would get to pick the movie they go to."}, "Question", {q: "Would the boyfriend necessarily pick the movie?   ", hasCorrect: 1}],
+[["filler67",[93,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler67",[93,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler51",[93,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler51",[93,1]], "DashedSentence", {s: "If the principal finished the survey he would present it in the PTA meeting."}, "Question", {q: "Was it one of the parents who was working on the survey?   ", hasCorrect: 1}],
+[["filler25",[93,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+[["filler25",[93,1]], "DashedSentence", {s: "A cousin proved his social ineptness by making an insensitive joke at the funeral. "}, "Question", {q: "Was the cousin's comment appropriate?   ", hasCorrect: 1}],
+[["filler69",[93,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler69",[93,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_unambig_unmodified",[94,1]], "DashedSentence", {s: "The employees understood that the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS1_ambig_unmodified",[94,1]], "DashedSentence", {s: "The employees understood the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler12",[94,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+[["filler12",[94,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_unambig_unmodified",[94,1]], "DashedSentence", {s: "After the kids cheated, the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_ambig_unmodified",[94,1]], "DashedSentence", {s: "After the kids cheated the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler19",[94,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler19",[94,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler5",[95,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+[["filler5",[95,1]], "DashedSentence", {s: "The taxi at the airport picked_up the businessman while he was being paged by his wife."}, "Question", {q: "Was the businessman paged by his boss?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS17_ambig_unmodified",[95,1]], "DashedSentence", {s: "The reporter revealed the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS17_unambig_unmodified",[95,1]], "DashedSentence", {s: "The reporter revealed that the politician received some payments from the unscrupulous millionaire."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler31",[95,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+[["filler31",[95,1]], "DashedSentence", {s: "The television announcer angered many fans when he incorrectly reported that the popular sports hero had been traded to a rival team."}, "Question", {q: "Did the announcer claim that the sports hero retired?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_ambig_unmodified",[95,1]], "DashedSentence", {s: "Although the maid cleaned the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ3_unambig_unmodified",[95,1]], "DashedSentence", {s: "Although the maid cleaned, the house was still in a state of total chaos."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ4_ambig_unmodified",[96,1]], "DashedSentence", {s: "Because the class failed the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ4_unambig_unmodified",[96,1]], "DashedSentence", {s: "Because the class failed, the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler50",[96,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+[["filler50",[96,1]], "DashedSentence", {s: "While the athletes ran the track the obstacle course was undergoing massive renovations."}, "Question", {q: "Was the obstacle course being renovated?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_unambig_unmodified",[96,1]], "DashedSentence", {s: "The traveler heard that the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS4_ambig_unmodified",[96,1]], "DashedSentence", {s: "The traveler heard the clock had woken everybody up in the youth hostel."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler33",[96,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler33",[96,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler72",[97,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+[["filler72",[97,1]], "DashedSentence", {s: "The journalist doubted the validity of the statement that was released by the corporation."}, "Question", {q: "Did the journalist think the statement might not be true?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_unambig_unmodified",[97,1]], "DashedSentence", {s: "Before the tribe worshipped, the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_ambig_unmodified",[97,1]], "DashedSentence", {s: "Before the tribe worshipped the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler61",[97,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler61",[97,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS19_unambig_unmodified",[97,1]], "DashedSentence", {s: "The lawyer established that the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS19_ambig_unmodified",[97,1]], "DashedSentence", {s: "The lawyer established the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler58",[98,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler58",[98,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler61",[98,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+[["filler61",[98,1]], "DashedSentence", {s: "The politician conveyed the plans he had for educational reform in detail and asked for support in implementing them."}, "Question", {q: "Was the politician vague about his educational reform plans?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS1_unambig_unmodified",[98,1]], "DashedSentence", {s: "The employees understood that the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS1_ambig_unmodified",[98,1]], "DashedSentence", {s: "The employees understood the contract would be changed very soon to accommodate all parties."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler74",[98,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler74",[98,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler38",[99,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler38",[99,1]], "DashedSentence", {s: "The logging road was sandy so the trucker kept in low gear to avoid spilling his precious cargo."}, "Question", {q: "Was the trucker going quickly?   ", hasCorrect: 1}],
+[["filler13",[99,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler13",[99,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler59",[99,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler59",[99,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler10",[99,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler10",[99,1]], "DashedSentence", {s: "The convict stalked the judge who had put him in jail for over thirty years."}, "Question", {q: "Was the convict stalking the judge?   ", hasCorrect: 0}],
+[["filler44",[100,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler44",[100,1]], "DashedSentence", {s: "After the contractor inspected the office, it was discovered that the light switch needed to be repaired."}, "Question", {q: "Did the outlets need to be replaced?   ", hasCorrect: 1}],
+[["filler49",[100,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler49",[100,1]], "DashedSentence", {s: "Because the fugutive roamed the area the residents secured all their doors and windows."}, "Question", {q: "Was the fugutive nearby?   ", hasCorrect: 0}],
+[["filler32",[100,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler32",[100,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ4_ambig_unmodified",[100,1]], "DashedSentence", {s: "Because the class failed the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ4_unambig_unmodified",[100,1]], "DashedSentence", {s: "Because the class failed, the exam was rewritten by the teacher so it was much easier."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_unambig_unmodified",[101,1]], "DashedSentence", {s: "While the narrator read, the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ16_ambig_unmodified",[101,1]], "DashedSentence", {s: "While the narrator read the story was dramatized by the troop of skilled actors."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_ambig_unmodified",[101,1]], "DashedSentence", {s: "Even_though the girl phoned the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_unambig_unmodified",[101,1]], "DashedSentence", {s: "Even_though the girl phoned, the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler16",[101,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler16",[101,1]], "DashedSentence", {s: "The math teacher quizzed a student who had been drawing pictures on the inside of his notebook instead of paying attention in class."}, "Question", {q: "Was the student paying attention?   ", hasCorrect: 1}],
+[["filler75",[101,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler75",[101,1]], "DashedSentence", {s: "The student guessed the answer to the question and marked it on the sheet."}, "Question", {q: "Did the student skip the question?   ", hasCorrect: 1}],
+[["filler59",[102,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler59",[102,1]], "DashedSentence", {s: "The speaker articulated the ideas in a very eloquent fashion."}, "Question", {q: "Was the speaker expressing himself clearly?   ", hasCorrect: 0}],
+[["filler32",[102,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler32",[102,1]], "DashedSentence", {s: "The fox which had been stealing eggs from the chicken coop was trapped during the night and released in another part of the county."}, "Question", {q: "Had the fox been stealing eggs?   ", hasCorrect: 0}],
+[["filler22",[102,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler22",[102,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler23",[102,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler23",[102,1]], "DashedSentence", {s: "The company party was more rowdy than usual since someone had spiked the punch."}, "Question", {q: "Was the party boring?   ", hasCorrect: 1}],
+[["filler45",[103,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler45",[103,1]], "DashedSentence", {s: "Whenever the quiet stewardess addressed the cabin the drunken businessman listened attentively."}, "Question", {q: "Did the drunk ignore the stewardess?   ", hasCorrect: 1}],
+[["filler8",[103,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+[["filler8",[103,1]], "DashedSentence", {s: "The exterminator killed the wasps while the child screamed at the top of his lungs."}, "Question", {q: "Did the child scream?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_unambig_unmodified",[103,1]], "DashedSentence", {s: "Once the child played, the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_ambig_unmodified",[103,1]], "DashedSentence", {s: "Once the child played the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler27",[103,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+[["filler27",[103,1]], "DashedSentence", {s: "The mutiny on the ship was squashed even though the officers were heavily outnumbered and far from a safe port."}, "Question", {q: "Did the officers have the advantage?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_unambig_unmodified",[104,1]], "DashedSentence", {s: "The soldiers remembered that the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_ambig_unmodified",[104,1]], "DashedSentence", {s: "The soldiers remembered the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS18_ambig_unmodified",[104,1]], "DashedSentence", {s: "The owners insured the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS18_unambig_unmodified",[104,1]], "DashedSentence", {s: "The owners insured that the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler67",[104,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+[["filler67",[104,1]], "DashedSentence", {s: "Mr. Rogers asked the question and was waiting for a reply."}, "Question", {q: "Did someone answer the question?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS6_ambig_unmodified",[104,1]], "DashedSentence", {s: "The worker maintained the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS6_unambig_unmodified",[104,1]], "DashedSentence", {s: "The worker maintained that the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler71",[105,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler71",[105,1]], "DashedSentence", {s: "The judge demanded the truth and threatened the witness with contempt if she did not reply to the question."}, "Question", {q: "Was the judge addressing the witness?   ", hasCorrect: 0}],
+[["filler42",[105,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+[["filler42",[105,1]], "DashedSentence", {s: "While the seamstress sewed a dress the tailor went to the track to bet on the ponies."}, "Question", {q: "Did the tailor help make a dress?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_ambig_unmodified",[105,1]], "DashedSentence", {s: "After the librarian called the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ14_unambig_unmodified",[105,1]], "DashedSentence", {s: "After the librarian called, the intern began returning books to the shelves."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler17",[105,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler17",[105,1]], "DashedSentence", {s: "The owner of the coffeeshop hired a folk guitar singer who he had met in college and with whom he had fallen in love."}, "Question", {q: "Did the singer own the coffeeshop?   ", hasCorrect: 1}],
+[["filler2",[106,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+[["filler2",[106,1]], "DashedSentence", {s: "The general who the colonel embarrassed tripped over someone's foot after drinking too much at the party."}, "Question", {q: "Did the general trip?   ", hasCorrect: 0}],
+[["filler78",[106,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler78",[106,1]], "DashedSentence", {s: "The comedian remembered the joke and used it as an encore."}, "Question", {q: "Did the comedian forget the joke?   ", hasCorrect: 1}],
+[["filler37",[106,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+[["filler37",[106,1]], "DashedSentence", {s: "Almost any mechanic can talk for hours about techniques he's discovered in auto repair."}, "Question", {q: "Do most mechanics discover new techniques?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_unambig_unmodified",[106,1]], "DashedSentence", {s: "Even_though the band left, the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ1_ambig_unmodified",[106,1]], "DashedSentence", {s: "Even_though the band left the party went on for at least another two hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_ambig_unmodified",[107,1]], "DashedSentence", {s: "Because the train stopped the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ12_unambig_unmodified",[107,1]], "DashedSentence", {s: "Because the train stopped, the traffic was rerouted through side streets for several hours."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler60",[107,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+[["filler60",[107,1]], "DashedSentence", {s: "The trainer noted the success of his team at the recent tournament."}, "Question", {q: "Was the team succesful?   ", hasCorrect: 0}],
+[["filler58",[107,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler58",[107,1]], "DashedSentence", {s: "As soon as Terry entered the room, his sister complained about his appearance."}, "Question", {q: "Did Terry's sister like the way he looked?   ", hasCorrect: 1}],
+[["filler18",[107,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler18",[107,1]], "DashedSentence", {s: "The elderly gentleman sold a painting that had been in his family for over six generations because he had fallen upon hard times. "}, "Question", {q: "Was the gentleman wealthy?   ", hasCorrect: 1}],
+[["filler19",[108,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler19",[108,1]], "DashedSentence", {s: "A fly landed on the soup a customer was eating so the waitress threw the meal out."}, "Question", {q: "Was the customer eating soup?   ", hasCorrect: 0}],
+[["filler15",[108,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler15",[108,1]], "DashedSentence", {s: "The exhibition offended the public who petitioned the mayor to withhold funding from the museum."}, "Question", {q: "Did the public dislike the artwork?   ", hasCorrect: 0}],
+[["filler6",[108,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+[["filler6",[108,1]], "DashedSentence", {s: "The battleship fired at the patrol boat despite the fact that the vessel had offered to surrender."}, "Question", {q: "Was the patrol boat attacked by the battleship?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_unambig_unmodified",[108,1]], "DashedSentence", {s: "The army found that the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS9_ambig_unmodified",[108,1]], "DashedSentence", {s: "The army found the supplies saved many lives during the long conflict."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler69",[109,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+[["filler69",[109,1]], "DashedSentence", {s: "The valedictorian quoted the famous saying by John Kennedy in his graduation speech."}, "Question", {q: "Did the valedictorian quote John Kennedy?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ13_unambig_unmodified",[109,1]], "DashedSentence", {s: "In_case the team lost, the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ13_ambig_unmodified",[109,1]], "DashedSentence", {s: "In_case the team lost the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS18_unambig_unmodified",[109,1]], "DashedSentence", {s: "The owners insured that the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS18_ambig_unmodified",[109,1]], "DashedSentence", {s: "The owners insured the house would never get flooded again when it rained."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler13",[109,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+[["filler13",[109,1]], "DashedSentence", {s: "The medication didn't help the patient who hadn't had a good night's sleep in several months because of back pains."}, "Question", {q: "Was the pain keeping the patient awake?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_unambig_unmodified",[110,1]], "DashedSentence", {s: "As the couple danced, the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ6_ambig_unmodified",[110,1]], "DashedSentence", {s: "As the couple danced the tango began to be played by a live orchestra."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler11",[110,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler11",[110,1]], "DashedSentence", {s: "The hairdresser hired an assistant who had been recommended to him by his cousin."}, "Question", {q: "Did the hairdresser's mother recommend the assistant?   ", hasCorrect: 1}],
+[["filler62",[110,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+[["filler62",[110,1]], "DashedSentence", {s: "The astronaut reported the findings from the latest mission to his colleagues."}, "Question", {q: "Did the astronaut refuse to share his findings with others?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_ambig_unmodified",[110,1]], "DashedSentence", {s: "In_case the team lost the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ13_unambig_unmodified",[110,1]], "DashedSentence", {s: "In_case the team lost, the tie-breaker was scheduled for the following week at the local park."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler63",[111,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+[["filler63",[111,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS8_unambig_unmodified",[111,1]], "DashedSentence", {s: "The committee mentioned that the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS8_ambig_unmodified",[111,1]], "DashedSentence", {s: "The committee mentioned the issue would cause a problem at the meeting."}, "Question", {q: " yes
+", hasCorrect: 0}],
+[["filler80",[111,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler80",[111,1]], "DashedSentence", {s: "The arbitrator understood the position of both sides and ruled in favor of the plaintiff."}, "Question", {q: "Did the arbitrator favor the plaintiff's position?", hasCorrect: 0}],
+[["filler12",[111,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+[["filler12",[111,1]], "DashedSentence", {s: "The cowboy inspected the new pistol that he had recently bought in town."}, "Question", {q: "Did the cowboy buy a gun?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS6_ambig_unmodified",[112,1]], "DashedSentence", {s: "The worker maintained the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS6_unambig_unmodified",[112,1]], "DashedSentence", {s: "The worker maintained that the walls fell down in a heap before he arrived."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler35",[112,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler35",[112,1]], "DashedSentence", {s: "The gas tank was making ominous sounds after the long car ride."}, "Question", {q: "Was the gas tank emitting noise?   ", hasCorrect: 0}],
+[["filler20",[112,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler20",[112,1]], "DashedSentence", {s: "The harpist was well liked by most of the musicians in the orchestra but decided to leave anyway."}, "Question", {q: "Was the harpist treated poorly by the rest of the orchestra?   ", hasCorrect: 1}],
+[["filler56",[112,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler56",[112,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler22",[113,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+[["filler22",[113,1]], "DashedSentence", {s: "The vaccine that was developed in the top secret laboratory could not be used in the third world because of its high costs."}, "Question", {q: "Was the vaccine freely accessible?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS7_ambig_unmodified",[113,1]], "DashedSentence", {s: "The apprentice forgot the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS7_unambig_unmodified",[113,1]], "DashedSentence", {s: "The apprentice forgot that the bicycle was standing in the garage next to the car."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler70",[113,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler70",[113,1]], "DashedSentence", {s: "The witness narrated the events of that night as he remembered them."}, "Question", {q: "Was the witness telling his version of the events?   ", hasCorrect: 0}],
+[["filler76",[113,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler76",[113,1]], "DashedSentence", {s: "The neighbor overheard the conversation but pretended not to have noticed anything."}, "Question", {q: "Did the neighbor hear what was spoken?   ", hasCorrect: 0}],
+[["filler57",[114,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler57",[114,1]], "DashedSentence", {s: "Since the band cancelled the concert, the fans who had tickets were reimbursed."}, "Question", {q: "Did the fans get their money back?   ", hasCorrect: 0}],
+[["filler74",[114,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+[["filler74",[114,1]], "DashedSentence", {s: "The dispatcher expected the package and told the driver to wait for it."}, "Question", {q: "Did the dispatcher think the package was about to arrive?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_unambig_unmodified",[114,1]], "DashedSentence", {s: "Even_though the girl phoned, the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ9_ambig_unmodified",[114,1]], "DashedSentence", {s: "Even_though the girl phoned the instructor was very upset with her for missing a lesson."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_unambig_unmodified",[114,1]], "DashedSentence", {s: "Before the tribe worshipped, the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ17_ambig_unmodified",[114,1]], "DashedSentence", {s: "Before the tribe worshipped the idol was placed on a large platform."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS20_unambig_unmodified",[115,1]], "DashedSentence", {s: "The store guaranteed that the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS20_ambig_unmodified",[115,1]], "DashedSentence", {s: "The store guaranteed the television would last for ten years without failing."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler52",[115,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler52",[115,1]], "DashedSentence", {s: "Although Brad knew the answer he did not have enough time to write it down."}, "Question", {q: "Did Brad write an answer to the question?   ", hasCorrect: 1}],
+[["filler68",[115,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler68",[115,1]], "DashedSentence", {s: "The researcher cited the data from some earlier unpublished work on which he based his current hypothesis."}, "Question", {q: "Were the results published?   ", hasCorrect: 1}],
+[["filler46",[115,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler46",[115,1]], "DashedSentence", {s: "Once her boyfriend went to the bathroom, a naval officer approached the girl at the bar."}, "Question", {q: "Was the girl dating someone?   ", hasCorrect: 0}],
+[["filler36",[116,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler36",[116,1]], "DashedSentence", {s: "The name tag on the blouse of the guest speaker took attention away from the coffee stain underneath."}, "Question", {q: "Did the speaker spill tea on her blouse?   ", hasCorrect: 1}],
+[["filler33",[116,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+[["filler33",[116,1]], "DashedSentence", {s: "The minister who stole millions of dollars from his congregation spent the money on large houses and extravagant cars."}, "Question", {q: "Did the minister steal a few thousand dollars?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS12_ambig_unmodified",[116,1]], "DashedSentence", {s: "The woman noticed the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS12_unambig_unmodified",[116,1]], "DashedSentence", {s: "The woman noticed that the flyer had the wrong address listed on the front."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler63",[116,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+[["filler63",[116,1]], "DashedSentence", {s: "Ms. Taylor sang the ballad with a passion that moved everyone in the audience."}, "Question", {q: "Did Ms. Taylor deliver a moving performance?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_ambig_unmodified",[117,1]], "DashedSentence", {s: "After the kids cheated the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ7_unambig_unmodified",[117,1]], "DashedSentence", {s: "After the kids cheated, the teacher had them sit at separate desks and think about what they had done."}, "Question", {q: " yes
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_ambig_unmodified",[117,1]], "DashedSentence", {s: "Once the child played the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPZ5_unambig_unmodified",[117,1]], "DashedSentence", {s: "Once the child played, the piano was moved to the corner of the room."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler40",[117,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler40",[117,1]], "DashedSentence", {s: "The courageous fireman plummeted six stories but landed in a safety net and only suffered a few broken bones and a bruised ego."}, "Question", {q: "Was the fire fighter a coward?   ", hasCorrect: 1}],
+[["filler64",[117,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler64",[117,1]], "DashedSentence", {s: "The missionary chanted the prayer together with his fellow worshipers."}, "Question", {q: "Was the missionary praying by himself?   ", hasCorrect: 1}],
+[["filler47",[118,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler47",[118,1]], "DashedSentence", {s: "While the boys played hide and seek the parents went to take a nap."}, "Question", {q: "Were the boys awake?   ", hasCorrect: 0}],
+[["filler7",[118,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+[["filler7",[118,1]], "DashedSentence", {s: "The player insulted the coach although the attack was unprovoked."}, "Question", {q: "Did the coach punch the player?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS13_ambig_unmodified",[118,1]], "DashedSentence", {s: "The tourists saw the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS13_unambig_unmodified",[118,1]], "DashedSentence", {s: "The tourists saw that the palace was being restored to its original condition."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_ambig_unmodified",[118,1]], "DashedSentence", {s: "The soldiers remembered the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS15_unambig_unmodified",[118,1]], "DashedSentence", {s: "The soldiers remembered that the town had been flattened in the bombing raid."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler56",[119,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+[["filler56",[119,1]], "DashedSentence", {s: "Although the host forgot the cookies, there were plenty of other desserts for the guests to pick from."}, "Question", {q: "Were cookies served to the guests?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPS16_unambig_unmodified",[119,1]], "DashedSentence", {s: "The priest recognized that two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 1}],
+did not find yes or no
+[["NPS16_ambig_unmodified",[119,1]], "DashedSentence", {s: "The priest recognized two guests were necessary for the marriage to be legal."}, "Question", {q: " no
+", hasCorrect: 1}],
+[["filler79",[119,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler79",[119,1]], "DashedSentence", {s: "The teacher sensed the mood of the children and turned to a different activity."}, "Question", {q: "Did the teacher continue with the same activity?   ", hasCorrect: 1}],
+[["filler65",[119,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+[["filler65",[119,1]], "DashedSentence", {s: "The wizard howled the secret call and the rain began to pour just a few minutes afterwards."}, "Question", {q: "Did it start raining?   ", hasCorrect: 0}],
+did not find yes or no
+[["NPS19_ambig_unmodified",[120,1]], "DashedSentence", {s: "The lawyer established the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 0}],
+did not find yes or no
+[["NPS19_unambig_unmodified",[120,1]], "DashedSentence", {s: "The lawyer established that the alibi was not sufficient to free the defendant from blame."}, "Question", {q: " no
+", hasCorrect: 0}],
+[["filler30",[120,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+[["filler30",[120,1]], "DashedSentence", {s: "The inspector fined the movie theater because it had a poorly lit exit sign which could be very dangerous if the customers needed to be evacuated quickly."}, "Question", {q: "Was the theater fined for its poor ventilation?   ", hasCorrect: 1}],
+did not find yes or no
+[["NPZ11_ambig_unmodified",[120,1]], "DashedSentence", {s: "Although the candidates debated the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 1}],
+did not find yes or no
+[["NPZ11_unambig_unmodified",[120,1]], "DashedSentence", {s: "Although the candidates debated, the issues were overlooked by most of the media who covered the campaign."}, "Question", {q: " yes
+", hasCorrect: 1}],
+[["filler1",[120,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
+[["filler1",[120,1]], "DashedSentence", {s: "The graduate student who the professor from the university respected trained the researcher."}, "Question", {q: "Did the professor work at a university?   ", hasCorrect: 0}],
 
 
 ["participant_observations", "Form", {html: {include: "participant_observations.html"}}],
