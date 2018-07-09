@@ -1,7 +1,7 @@
 .Question {
     margin-left: 0;
     padding-left: 0;
-    font-size: 30;
+    font-size: 20;
 }
 .Question-normal-answer {
     font-size: 70pt;
@@ -14,7 +14,7 @@
 }
 li.normal-answer {
     text-align: left;
-    font-size:30;
+    font-size:20;
     cursor: pointer;
     padding-bottom: 1em;
 }
